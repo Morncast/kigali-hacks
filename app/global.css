@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=swap");
+
+body {
+    margin: 0;
+    line-height: normal;
+    background-color: #fefef9;
+    overflow-x: hidden;
+  }
+  :root {
+    /* fonts */
+    --font-abeezee: ABeeZee;
+  
+    /* font sizes */
+    --font-size-xs: 12.68px;
+    --font-size-sm: 16px;
+    --font-size-base: 18px;
+    --font-size-lg: 20px;
+    --font-size-xl: 21.13px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 34px;
+    --font-size-4xl: 54px;
+  
+    /* Colors */
+    --yellowish-white: #f5f1ea;
+    --black-black-00: #1a1a1a;
+    --black-black: #0a0f0d;
+    --color-gray-400: rgba(255, 255, 255, 0.8);
+    --color-gray-500: rgba(0, 0, 0, 0.5);
+    --black-black-80: rgba(10, 15, 13, 0.8);
+    --white-white: #fff;
+    --green: #ebffdb;
+    --color-black: #000;
+    --blue: #c5b6f0;
+  
+    /* Paddings */
+    --padding-xs: 10.567164421081543px;
+    --padding-sm: 12px;
+    --padding-md: 16.90746307373047px;
+    --padding-lg: 24px;
+  
+    /* border radiuses */
+    --br-sm: 6.34px;
+    --br-md: 8.45px;
+    --br-lg: 14px;
+  }
+
+
+
+
+
+  .page {
+
+
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--black-black);
+    font-family: var(--font-abeezee);
+  }
+header{
+    /* width: 541px; */
+/* 
+height: 40px; */
+/* left: 101px;
+top: 30px; */
+margin: 0  40px 0 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+nav{
+ /* display: flex; */
+width: 441px;
+height: 40px; 
+
+
+}
+ul{
+ display: flex;
+
+
+ /* list-style: none;
+ align-items: center; */
+}
+li{
+padding-left: 44px;
+display: flex;
+list-style: none;
+}
+a{
+ text-decoration: none;
+ color: var(--black-black-80);
+
+ font-size: var(--font-size-sm);
+}
+
+svg{
+ /* padding-top: 1px; */
+ width: 60.8px;
+height: 97.64px;
+
+}
+
+.button{
+  position: relative;
+  top: -12px;
+ margin-left: 120px;
+    border-radius: 6px;
+    background-color: var(--white-white);
+    border: 1px solid var(--color-gray-500);
+  
+    padding: var(--padding-sm) var(--padding-lg);
+  
+}
+main{
+    display: flex;
+flex-direction: row;
+
+
+}
+.image{
+    position: relative;
+   
+    right: 120px;
+
+    height: 640px;
+
+   
+}
+.image2{
+    position: absolute;
+    top: 100px;
+    left: 0;
+
+    object-fit: cover;
+    width: 960px;
+    height: 549px;
+}
+.main{
+  
+position: relative;
+right: 90px;
+
+  
+
+    font-size: var(--font-size-base);
+    color: var(--black-black-80);
+   
+}
+.kigaliHacksHack {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 28px;
+    width: 455px;
+    font-size: 64px;
+    line-height: 64px;
+    color: var(--black-black);
+
+  }
+
+  .joinUs{
+    position: absolute;
+    top: 233px;
+    left: 0;
+    line-height: 28px;
+    display: inline-block;
+    width: 400px;
+  }
+  .inputs{
+    position: absolute;
+    top: 420px;
+    width: 440px;
+    height: 66px;
+  }
+
+  input{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--green);
+    border: 1px solid var(--black-black-80);
+    box-sizing: border-box;
+    width: 400px;
+    
+    line-height: 16px;
+    height: 66px;
+  }
+  .image3{
+    position: absolute;
+    left: 342px;
+    top: 8px;
+    /* 
+   
+   */
+    width: 50px;
+    height: 50px;
+  }
+  .sponsors{
+position: absolute;
+    text-align: center;
+    font-size: var(--font-size-2xl);
+  }
+  .sponsors1{
+    position: absolute;
+    border-top: 1px solid var(--black-black);
+    box-sizing: border-box;
+    left: 230px;
+    height: 1px;
+width: 800px;
+  }
+  .image4{ 
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+    width: 700px;
+    
+  }
+  .sponsors2{
+    position: absolute;
+    bottom: 170px;
+    line-height: 24px;
+    left: 600px;
+  }
+  .sponsors3{
+
+  position: absolute;
+  bottom: 90px;
+  left: 230px;
+    border-top: 1px solid var(--black-black);
+    box-sizing: border-box;
+
+    height: 1px;
+width: 800px;
+  }
+  .faqSection {
+    position: absolute;
+ 
+    height: 1250px;
+    left: -14px;
+    top: 940px;
+  
+    padding: 60px;
+    background-color: var(--black-black);
+
+    width: 100%;
+    height: 420px;
+    font-size: var(--font-size-3xl);
+    color: var(--white-white);
+  }
+
+.faqs {
+
+  font-size:  var(--font-size-4xl);
+  line-height: 54px;
+  display: inline-block;
+  width: 125.21px;
+  
+}
+
+.bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--black-black-00);
+  border: 1px solid var(--white-white);
+  box-sizing: border-box;
+  width: 1181.38px;
+  height: 265.33px;
+}
+
+.div {
+  position: absolute;
+bottom: 100px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+
+.div1 {
+  position: absolute;
+bottom: -180px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+
+.div2 {
+  position: absolute;
+bottom: -260px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+.div3 {
+  position: absolute;
+bottom: -340px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+.div4 {
+  position: absolute;
+bottom: -400px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+.div5 {
+  position: absolute;
+bottom: -460px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+.div6 {
+  position: absolute;
+bottom: -520px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+.div7 {
+  position: absolute;
+bottom: -560px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+.div8 {
+  position: absolute;
+bottom: -620px;
+  width: 1181.38px;
+  height: 265.33px;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-400);
+
+
+}
+.iNeedHelp {
+  position: absolute;
+  top: 47.17px;
+  left: 46.45px;
+  font-size: var(--font-size-3xl);
+  line-height: 34px;
+  display: inline-block;
+  color: var(--white-white);
+  width: 690.65px;
+  height: 50.12px;
+}
+
+.wereSorryYouContainer {
+  position: absolute;
+  top: 132.67px;
+  left: 46.45px;
+  line-height: 28px;
+  display: inline-block;
+  width: 1088.48px;
+  height: 82.55px;
+}
+.here {
+  color: var(--blue);
+}
