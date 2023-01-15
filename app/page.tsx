@@ -41,46 +41,48 @@ function Home() {
         </div>
         </div>
     </main>
-  
-    <div className='sponsors'>
+  <section>
+  <div className='sponsors'>
         <div className='sponsors1' />
         <Image className='image4' width='100' height='207' alt="" src="../group-41.svg" />
         <div className='sponsors2'>Sponsors</div>
         <div className='sponsors3' />
-      </div>    
+      </div>  
+  </section>
+    
 
       <div className='faqSection'>
       <i className='faqs'>FAQs</i>
+      <section className='fqa'>
       <div className='div'>
           <div className='bg1' />
           <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
+            What is a hackathon?
           </i>
           <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
-            <span>.</span>
+            <span>A hackathon is an invention marathon where students come together to build, learn and share. The project can be anything as long it solves a problem. Everyone will create their own project in teams of up to 8 and at the end each team presents its project. The best projects will get prizes, and there will be swag and food and drinks for everyone.</span>  
           </div>
         </div>
         <div className='div1'>
           <div className='bg1' />
           <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
+            Do I need to know how to code?
           </i>
           <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
+            <span>No, everyone is welcomed since there will be workshops that introduces some to </span>
+            <span className='here'>programming</span>
             <span>.</span>
           </div>
         </div>
+
         <div className='div2'>
           <div className='bg1' />
           <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
+        Who can attend?
           </i>
           <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
+            <span>Everyone is eligible to particpate in Kigali Hacks 2023 if only you are in high school, and if you already graduated and still want to attend you can consider volunteering or mentoring for the event</span>
+            <span className='here'> email us at morncast@gmail.com</span>
             <span>.</span>
           </div>
         </div>
@@ -88,77 +90,38 @@ function Home() {
         <div className='div3'>
           <div className='bg1' />
           <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
+            How much does Kigali Hacks cost?
           </i>
           <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
-            <span>.</span>
+            <span>It cost nothing basically it is free.</span>
           </div>
         </div>
 
         <div className='div4'>
           <div className='bg1' />
           <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
+           1.Where is Kigali Hacks?
+           <br />
+           <br />
+           2.Can I use past projects?
           </i>
+     <br />
+     <br />
           <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
-            <span>.</span>
+            <br />
+            <span>1.The venue is still not locked in but we will update you as soon as possible.</span>
+         
+            <br />
+
+            <span>{"2.No, you can't use them"}</span>
           </div>
         </div>
-
-        <div className='div5'>
-          <div className='bg1' />
-          <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
-          </i>
-          <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
-            <span>.</span>
-          </div>
-        </div>
-
-        <div className='div6'>
-          <div className='bg1' />
-          <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
-          </i>
-          <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
-            <span>.</span>
-          </div>
-        </div>
-
-        <div className='div7'>
-          <div className='bg1' />
-          <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
-          </i>
-          <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
-            <span>.</span>
-          </div>
-        </div>
-
-        <div className='div8'>
-          <div className='bg1' />
-          <i className='iNeedHelp'>
-            I need help with my existing Gprig account.
-          </i>
-          <div className='wereSorryYouContainer'>
-            <span>{`We're sorry you are experiencing some trouble. Open the help chat in the bottom right corner to chat with someone directly or we might have some helpful information in our knowledge base `}</span>
-            <span className='here'>here</span>
-            <span>.</span>
-          </div>
-        </div>
-
-
+      </section>
       </div>
+      <footer>
+        <div className='footer' />
+        <div className='copyright'>Copyright © 2023.</div>
+      </footer>
     </div>
   )
 }

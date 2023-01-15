@@ -245,9 +245,10 @@ width: 800px;
     background-color: var(--black-black);
 
     width: 100%;
-    height: 420px;
+
     font-size: var(--font-size-3xl);
     color: var(--white-white);
+    height: 1450px;
   }
 
 .faqs {
@@ -294,7 +295,7 @@ bottom: -180px;
 
 .div2 {
   position: absolute;
-bottom: -260px;
+bottom: -460px;
   width: 1181.38px;
   height: 265.33px;
   font-size: var(--font-size-base);
@@ -304,7 +305,7 @@ bottom: -260px;
 }
 .div3 {
   position: absolute;
-bottom: -340px;
+bottom: -740px;
   width: 1181.38px;
   height: 265.33px;
   font-size: var(--font-size-base);
@@ -314,7 +315,7 @@ bottom: -340px;
 }
 .div4 {
   position: absolute;
-bottom: -400px;
+bottom: -1020px;
   width: 1181.38px;
   height: 265.33px;
   font-size: var(--font-size-base);
@@ -322,46 +323,7 @@ bottom: -400px;
 
 
 }
-.div5 {
-  position: absolute;
-bottom: -460px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
 
-
-}
-.div6 {
-  position: absolute;
-bottom: -520px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-
-
-}
-.div7 {
-  position: absolute;
-bottom: -560px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-
-
-}
-.div8 {
-  position: absolute;
-bottom: -620px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-
-
-}
 .iNeedHelp {
   position: absolute;
   top: 47.17px;
@@ -385,4 +347,35 @@ bottom: -620px;
 }
 .here {
   color: var(--blue);
+}
+.fqa{
+ position: absolute;
+ top: 500px;
+
+}
+
+footer{
+
+  top: 676px;
+  left: 0;
+  width: 1440px;
+
+  color: var(--black-black-80);
+}
+
+.footer{
+position: absolute;
+  top: 2506px;
+  left: 0;
+  background-color: var(--green);
+  width: 1440px;
+  height: 44px;
+}
+
+.copyright{
+position: absolute;
+  top: 2524px;
+  left: 580px;
+  line-height: 16px;
+  text-align: center;
 }
