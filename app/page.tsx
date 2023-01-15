@@ -120,7 +120,11 @@ function Home() {
       </div>
       <footer>
         <div className='footer' />
-        <div className='copyright'>Copyright © 2023.</div>
+        <div className='copyright'>Morncast is fiscally sponsored by Hack Club Bank, a project by The Hack
+  Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499). 
+  <br />
+  <br />
+  Copyright © 2023.</div>
       </footer>
     </div>
   )

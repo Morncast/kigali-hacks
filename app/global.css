@@ -369,13 +369,13 @@ position: absolute;
   left: 0;
   background-color: var(--green);
   width: 1440px;
-  height: 44px;
+  height: 64px;
 }
 
 .copyright{
 position: absolute;
   top: 2524px;
-  left: 580px;
+  left: 80px;
   line-height: 16px;
   text-align: center;
 }
