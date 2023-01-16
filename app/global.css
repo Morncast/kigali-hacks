@@ -381,7 +381,7 @@ position: absolute;
 }
 
 
-@media (min-width: 361px) and (max-width: 425px) {
+/* @media (min-width: 361px) and (max-width: 425px) {
   .faqSection {
     height: 2150px;
 }
@@ -495,4 +495,4 @@ input {
   width: 20px;
   height: 20px;
 }
-}
+} */
