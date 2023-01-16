@@ -83,8 +83,8 @@ ul{
  align-items: center; */
 }
 li{
-padding-left: 44px;
-display: flex;
+/* padding-left: 44px; */
+
 list-style: none;
 }
 a{
@@ -104,7 +104,7 @@ height: 97.64px;
 .button{
   position: relative;
   top: -12px;
- margin-left: 120px;
+
     border-radius: 6px;
     background-color: var(--white-white);
     border: 1px solid var(--color-gray-500);
@@ -364,18 +364,20 @@ footer{
 }
 
 .footer{
+
 position: absolute;
   top: 2506px;
   left: 0;
   background-color: var(--green);
   width: 1440px;
-  height: 64px;
+  height: 94px;
 }
 
 .copyright{
+  padding-left: 50px;
 position: absolute;
   top: 2524px;
-  left: 80px;
+ 
   line-height: 16px;
   text-align: center;
 }
