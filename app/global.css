@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    height: 741px !important;
     line-height: normal;
     background-color: #fefef9;
     overflow-x: hidden;
@@ -382,8 +383,7 @@ position: absolute;
   text-align: center;
 }
 
-
-/* @media (min-width: 361px) and (max-width: 425px) {
+@media (min-width: 361px) and (max-width: 425px) {
   .faqSection {
     height: 2150px;
 }
@@ -470,7 +470,8 @@ top: -260px;
 
 }
 .kigaliHacksHack {
-  font-size: 54px;
+  padding-top:94px ;
+  font-size: 40px;
   line-height:54px;
 
   width: 365px;
@@ -497,4 +498,4 @@ input {
   width: 20px;
   height: 20px;
 }
-} */
+}
