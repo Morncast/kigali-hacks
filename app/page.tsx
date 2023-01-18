@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import humans from '../public/humans.png'
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
       <nav>
  
       <ul>
-        <li><a href="/about" className='button'>Get Started</a></li>
+        <li><Link href="https://airtable.com/shri2ZKDLlRx7QG1S" target='_blank' className='button'>Get Started</Link></li>
 
       </ul>
       </nav>
