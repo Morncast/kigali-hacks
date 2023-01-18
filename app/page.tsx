@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import humans from '../public/humans.png'
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
       <nav>
  
       <ul>
-        <li><a href="/about" className='button'>Get Started</a></li>
+        <li><Link href="https://airtable.com/shri2ZKDLlRx7QG1S" target='_blank' className='button'>Get Started</Link></li>
 
       </ul>
       </nav>
@@ -27,13 +28,17 @@ function Home() {
         <div className='main' >
         <div
           className='kigaliHacksHack' 
-           >{`Kigali Hacks, Hack The Future. `}</div>
+           >{`Kigali Hacks, Hack The Future.`}</div>
           <div className='joinUs'>
-            Join us at Kigali Hacks, the premier in-person high school
-            hackathon, and be a part of a 2-day journey of coding, building,
-            learning, and sharing, open to all high schoolers across Rwanda,
-            technical or non-technical backgrounds. We warmly welcome you
+            <p>Hey yes you Join us at Kigali Hacks and Hack The Future. The first in-person high school
+            hackathon in Rwanda you can be a part of a 12 hour journey of coding, building,
+            learning, and sharing.</p>
+          
+            <p>Open to all high schoolers across Rwanda,
+            technical or non-technical backgrounds. We warmly welcome you</p>
+          
           </div>
+  
           <div className='inputs'>
           <div  className='inputs1' />
           <input placeholder='Enterr email address' />
@@ -86,7 +91,6 @@ function Home() {
             <span>.</span>
           </div>
         </div>
-
         <div className='div3'>
           <div className='bg1' />
           <i className='iNeedHelp'>
@@ -117,7 +121,6 @@ function Home() {
           </div>
         </div>
       </section>
-      </div>
       <footer>
         <div className='footer' />
         <div className='copyright'>Morncast is fiscally sponsored by Hack Club Bank, a project by The Hack
@@ -126,6 +129,8 @@ function Home() {
   <br />
   Copyright © 2023.</div>
       </footer>
+      </div>
+   
     </div>
   )
 }
