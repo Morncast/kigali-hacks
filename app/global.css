@@ -168,15 +168,16 @@ right: 90px;
     width: 400px;
   }
   .inputs{
-    position: relative;
-    top: 300px;
+    position: absolute;
+    top: 420px;
     width: 440px;
     height: 66px;
-    z-index: 0000;
   }
 
   input{
- 
+    /* position: absolute;
+    top: 0;
+    left: 0; */
     padding: 20px;
     border-radius: 10px;
     background-color: var(--green);
@@ -244,11 +245,11 @@ width: 800px;
     padding: 60px;
     background-color: var(--black-black);
 
-    width: 100%;
+    width: 100000000000000000px;
 
     font-size: var(--font-size-3xl);
     color: var(--white-white);
-    height: 300%;
+    height: 1450px;
   }
 
 .faqs {
@@ -354,150 +355,46 @@ bottom: -1020px;
 
 }
 
-
 footer{
-  position: relative;
-  top: 1450px;
-font-size: medium;
-  text-align: left;
 
-  color: var(--color-gray-400);
-
-}
-/* @media screen and (max-width: 360px) {
-  footer{
-    position: relative;
-    top: 2250px;
-  font-size: medium;
-    text-align: left;
-  width: 300px;
-    color: var(--color-gray-400);
-  
-  }
-  .sponsors{
-display: none;
-      }
-  .faqSection {
-    height: auto;
-    padding: 40px;
-}
-
-  header{
-
-margin: 0  20px 0 20px;
-
-
-}
-
-.button{
- margin-left: 80px;
-}
- 
-
-.bg1 {
- 
-  width: 320px;
-  height: 525.33px;
-}
-
-.iNeedHelp {
- 
-  width: 260.65px;
-}
-
-.wereSorryYouContainer {
-  top: 192.67px;
-  width: 270px;
-  height: 82.55px;
-}
-
-
-
-.div1 {
-bottom: -424px;
-}
-
-.div2 {
-
-bottom: -760px;
-
-
-}
-.div3 {
-
-bottom: -1180px;
-
-
-}
-.div4 {
-
-bottom: -1520px;
-
-
-}
-
-.image2 {
-
-  width: 460px;
-
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-}
-.main {
-top: -260px;
-  right: -14px;
-
-}
-.kigaliHacksHack {
-  padding-top:94px ;
-  font-size: 40px;
-  line-height:54px;
-
-  width: 365px;
-
-}
-.joinUs {
-  position: absolute;
-  top: 203px;
+  top: 676px;
   left: 0;
-   line-height: 24px; 
-  display: inline-block;
-  width: 341px;
+  width: 1440px;
+
+  color: var(--black-black-80);
 }
-input {
-  position: absolute;
-  top: -20px;
-   width: 300px; 
-   line-height: 10px; 
-   height: 46px; 
+
+.footer{
+
+position: absolute;
+  top: 2506px;
+  left: 0;
+  background-color: var(--green);
+  width: 1440px;
+  height: 94px;
 }
-.image3 {
-   left: 272px; 
-   top: -6px; 
-  width: 20px;
-  height: 20px;
+
+.copyright{
+  padding-left: 50px;
+position: absolute;
+  top: 2524px;
+ 
+  line-height: 16px;
+  text-align: center;
 }
-}
+
 @media (min-width: 361px) and (max-width: 425px) {
-  footer{
-    position: relative;
-    top: 2250px;
-  font-size: medium;
-    text-align: left;
-  width: 300px;
-    color: var(--color-gray-400);
-  
-  }
-  .sponsors{
-display: none;
-      }
   .faqSection {
-    height: auto;
-    padding: 40px;
+    height: 2150px;
 }
+  .footer{
+    top: 3106px;
+    height: 194px;
+  }   
+  .copyright{
+    top: 3166px;
+    left: 0px;
+  }
 
   header{
 
@@ -510,6 +407,10 @@ margin: 0  20px 0 20px;
  margin-left: 80px;
 }
  
+.faqSection {
+  width: 100000px;
+
+}
 
 .bg1 {
  
@@ -597,4 +498,4 @@ input {
   width: 20px;
   height: 20px;
 }
-} */
+}
