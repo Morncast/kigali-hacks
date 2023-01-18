@@ -35,11 +35,7 @@ function Home() {
             learning, and sharing, open to all high schoolers across Rwanda,
             technical or non-technical backgrounds. We warmly welcome you
           </div>
-          <div className='inputs'>
-          <div  className='inputs1' />
-          <input placeholder='Enterr email address' />
-          <Image className='image3' width='90' height='92' alt="" src="../group-51.svg" />
-        </div>
+     
         </div>
     </main>
   <section>
