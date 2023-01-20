@@ -1,12 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=swap");
-
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
-    margin: 0;
-    height: 741px !important;
-    line-height: normal;
+
     background-color: #fefef9;
-    overflow-x: hidden;
+
+    font-size: var(--font-size-sm);
+    color: var(--black-black);
+    font-family: var(--font-abeezee);
   }
+
+  html,
+body {
+
+  overflow-x: hidden;
+}
   :root {
     /* fonts */
     --font-abeezee: ABeeZee;
@@ -49,44 +60,27 @@ body {
 
 
 
-  .page {
-
-
-    text-align: left;
-    font-size: var(--font-size-sm);
-    color: var(--black-black);
-    font-family: var(--font-abeezee);
-  }
 header{
-    /* width: 541px; */
-/* 
-height: 40px; */
-/* left: 101px;
-top: 30px; */
-margin: 0  40px 0 40px;
+
+margin: 0 40px 0 40px;
+
+
+}
+nav{
+ /* display: flex; */
+/* width: 441px;
+height: 40px;  */
 display: flex;
 justify-content: space-between;
 align-items: center;
 
 }
-nav{
- /* display: flex; */
-width: 441px;
-height: 40px; 
 
-
-}
-ul{
- display: flex;
-
-
- /* list-style: none;
- align-items: center; */
-}
 li{
 /* padding-left: 44px; */
 
 list-style: none;
+padding-top: 20px;
 }
 a{
  text-decoration: none;
@@ -116,31 +110,36 @@ height: 97.64px;
 main{
     display: flex;
 flex-direction: row;
-
-
 }
 .image{
-    position: relative;
-   
-    right: 120px;
-
-    height: 640px;
+    position: absolute;
+right: 300px;
+top: -30px;
+    height: 840px;
 
    
 }
 .image2{
-    position: absolute;
-    top: 100px;
-    left: 0;
+    position: relative;
+
+    left: -40px;
 
     object-fit: cover;
     width: 960px;
     height: 549px;
 }
+.image4{
+
+
+  object-fit: cover;
+  width: 200px;
+  height: 49px;
+}
+
 .main{
   
 position: relative;
-right: 90px;
+right: 170px;
 
   
 
@@ -149,324 +148,198 @@ right: 90px;
    
 }
 .kigaliHacksHack {
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 20px;
-    line-height: 28px;
-    width: 455px;
+
+    width: 504px;
     font-size: 64px;
     line-height: 64px;
     color: var(--black-black);
-
   }
 
   .joinUs{
-    position: absolute;
-    top: 233px;
-    left: 0;
-    line-height: 28px;
+    line-height: 32px;
     display: inline-block;
+    width: 460px;
+  }
+
+  .inputs{
+    position: relative;
+    top: 40px;
+    width: 440px;
+    height: 66px;
+  }
+
+  input{
+ 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--green);
+    border: 1px solid var(--black-black-80);
+    box-sizing: border-box;
     width: 400px;
+    
+    line-height: 16px;
+    height: 66px;
+  }
+  .image3{
+    position: relative;
+    left: 342px;
+    top: -60px;
+    /* 
+   
+   */
+    width: 50px;
+    height: 50px;
   }
 
  
   .sponsors{
-position: absolute;
+    margin:40px 0 20px 0px ;
+padding: 20px;
     text-align: center;
     font-size: var(--font-size-2xl);
   }
-  .sponsors1{
-    position: absolute;
-    border-top: 1px solid var(--black-black);
-    box-sizing: border-box;
-    left: 230px;
-    height: 1px;
-width: 800px;
-  }
-  .image4{ 
-    position: relative;
-    left: 300px;
-    bottom: 20px;
-    width: 700px;
-    
-  }
+  
+
   .sponsors2{
-    position: absolute;
-    bottom: 170px;
+    margin:0px 0 20px 0px ;
     line-height: 24px;
-    left: 600px;
-  }
-  .sponsors3{
 
-  position: absolute;
-  bottom: 90px;
-  left: 230px;
-    border-top: 1px solid var(--black-black);
-    box-sizing: border-box;
-
-    height: 1px;
-width: 800px;
   }
+
   .faqSection {
-    position: absolute;
+
  
-    height: 1250px;
-    left: -14px;
-    top: 940px;
+
+
   
     padding: 60px;
+
     background-color: var(--black-black);
 
-    width: 100000000000000000px;
+
 
     font-size: var(--font-size-3xl);
     color: var(--white-white);
-    height: 1450px;
+
   }
 
 .faqs {
 
   font-size:  var(--font-size-4xl);
-  line-height: 54px;
-  display: inline-block;
-  width: 125.21px;
+
   
 }
 
-.bg1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+
+.div {
   background-color: var(--black-black-00);
   border: 1px solid var(--white-white);
   box-sizing: border-box;
-  width: 1181.38px;
-  height: 265.33px;
-}
-
-.div {
-  position: absolute;
-bottom: 100px;
-  width: 1181.38px;
-  height: 265.33px;
+padding: 6px;
   font-size: var(--font-size-base);
   color: var(--color-gray-400);
 
 
 }
 
-.div1 {
-  position: absolute;
-bottom: -180px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-
-
-}
-
-.div2 {
-  position: absolute;
-bottom: -460px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-
-
-}
-.div3 {
-  position: absolute;
-bottom: -740px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-
-
-}
-.div4 {
-  position: absolute;
-bottom: -1020px;
-  width: 1181.38px;
-  height: 265.33px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
-
-
-}
 
 .iNeedHelp {
-  position: absolute;
-  top: 47.17px;
-  left: 46.45px;
-  font-size: var(--font-size-3xl);
-  line-height: 34px;
-  display: inline-block;
+  padding: 10px ;
+ 
+  font-size: var(--font-size-2xl);
   color: var(--white-white);
-  width: 690.65px;
-  height: 50.12px;
+
+
 }
 
 .wereSorryYouContainer {
-  position: absolute;
-  top: 132.67px;
-  left: 46.45px;
-  line-height: 28px;
-  display: inline-block;
-  width: 1088.48px;
-  height: 82.55px;
+padding: 20px;
+  width: 598.48px;
+
 }
 .here {
   color: var(--blue);
 }
 .fqa{
- position: absolute;
- top: 500px;
 
+margin-left: 20px;
+
+ display: grid;
+  grid-template-columns: 1fr 1fr ;
+
+  grid-gap: 10px 10px;
+  align-items: center;
+  justify-content: center
 }
 
 footer{
 
-  top: 676px;
-  left: 0;
-  width: 1440px;
+  background-color: var(--green);
+
+padding: 20px;
+ 
 
   color: var(--black-black-80);
 }
 
-.footer{
 
-position: absolute;
-  top: 2506px;
-  left: 0;
-  background-color: var(--green);
-  width: 1440px;
-  height: 94px;
-}
 
 .copyright{
-  padding-left: 50px;
-position: absolute;
-  top: 2524px;
- 
-  line-height: 16px;
-  text-align: center;
+
+  text-align: left;
 }
 
-@media (min-width: 361px) and (max-width: 425px) {
-  .faqSection {
-    height: 2150px;
-}
-  .footer{
-    top: 3106px;
-    height: 194px;
-  }   
-  .copyright{
-    top: 3166px;
-    left: 0px;
+
+/* /tablet and mobile */
+ @media (max-width: 1023px) {
+  .fqa{
+
+    margin-left: 20px;
+    
+     display: grid;
+      grid-template-columns: 1fr;
+    
+      grid-gap: 10px;
+    
+      justify-content: center
+    }
+
+    main{
+      display: flex;
+  flex-direction: column;
+  }
+  .main{
+  
+    position: relative;
+    right: -22px;
+
+       
+    }
+    .image{
+      position: absolute;
+  right: -320px;
+  top: -20px;
+      height: 840px;
+  
+     
   }
 
-  header{
-
-margin: 0  20px 0 20px;
-
-
-}
-
-.button{
- margin-left: 80px;
-}
+  .iNeedHelp {
+    padding: 10px ;
+   
+    font-size: var(--font-size-2xl);
+    color: var(--white-white);
+  
+  
+  }
+  
+  .wereSorryYouContainer {
+  padding: 20px;
+    width: 340px;
+  
+  }
+} 
  
-.faqSection {
-  width: 100000px;
-
-}
-
-.bg1 {
- 
-  width: 320px;
-  height: 525.33px;
-}
-
-.iNeedHelp {
- 
-  width: 260.65px;
-}
-
-.wereSorryYouContainer {
-  top: 192.67px;
-  width: 270px;
-  height: 82.55px;
-}
-
-
-
-.div1 {
-bottom: -424px;
-}
-
-.div2 {
-
-bottom: -760px;
-
-
-}
-.div3 {
-
-bottom: -1180px;
-
-
-}
-.div4 {
-
-bottom: -1520px;
-
-
-}
-
-.image2 {
-
-  width: 460px;
-
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-}
-.main {
-top: -260px;
-  right: -14px;
-
-}
-.kigaliHacksHack {
-  padding-top:94px ;
-  font-size: 40px;
-  line-height:54px;
-
-  width: 365px;
-
-}
-.joinUs {
-  position: absolute;
-  top: 203px;
-  left: 0;
-   line-height: 24px; 
-  display: inline-block;
-  width: 341px;
-}
-input {
-  position: absolute;
-  top: -20px;
-   width: 300px; 
-   line-height: 10px; 
-   height: 46px; 
-}
-.image3 {
-   left: 272px; 
-   top: -6px; 
-  width: 20px;
-  height: 20px;
-}
-}
