@@ -182,17 +182,7 @@ right: 170px;
     line-height: 16px;
     height: 66px;
   }
-  .image3{
-    position: relative;
-    left: 342px;
-    top: -60px;
-    /* 
-   
-   */
-    width: 50px;
-    height: 50px;
-  }
-
+ 
  
   .sponsors{
     margin:40px 0 20px 0px ;
@@ -348,11 +338,7 @@ input{
   
 }
 
-.image3{
 
-  left: -36px;
-  top: 20px;
-}
 .image2{
 
   width: 460px;

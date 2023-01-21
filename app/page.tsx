@@ -33,8 +33,7 @@ function Home() {
             technical or non-technical backgrounds. We warmly welcome you
           </div>
           <div className='inputs'>
-          <input placeholder='Enterr email address' />
-          <Image className='image3' width='90' height='92' alt="" src="../group-51.svg" />
+          <input placeholder='Organised by Morncast' disabled />
         </div>
         </div>
     </main>
