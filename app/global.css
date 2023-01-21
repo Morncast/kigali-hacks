@@ -308,24 +308,19 @@ padding: 20px;
     }
 
     main{
-      display: flex;
+      padding: 20px ;   
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+
   }
   .main{
   
-    position: relative;
-    right: -22px;
+    right: -70px;
 
-       
-    }
-    .image{
-      position: absolute;
-  right: -320px;
-  top: -20px;
-      height: 840px;
-  
-     
   }
+
 
   .iNeedHelp {
     padding: 10px ;
@@ -338,8 +333,30 @@ padding: 20px;
   
   .wereSorryYouContainer {
   padding: 20px;
-    width: 340px;
+    width: auto;
   
   }
+  .joinUs {
+width: 340px;
+
 } 
+
+input{
+ 
+  width: 320px;
+ 
+  
+}
+
+.image3{
+
+  left: -36px;
+  top: 20px;
+}
+.image2{
+
+  width: 460px;
+
+}
+ }
  

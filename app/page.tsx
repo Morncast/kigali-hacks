@@ -11,7 +11,7 @@ function Home() {
 <path fill-rule="evenodd" clip-rule="evenodd" d="M90.582 30.2962C97.1765 37.3722 98.6816 47.8383 94.3511 56.5055L86.9954 71.2277L79.0983 85.663C74.4492 94.1614 65.0236 98.8361 55.4947 97.3696L39.3089 94.8786L23.2269 91.7809C13.7591 89.9571 6.4287 82.3803 4.86997 72.8066L2.22234 56.545L0.18019 40.1951C-1.02207 30.5696 3.87303 21.2121 12.4386 16.7618L26.988 9.2025L41.8079 2.19551C50.5327 -1.92966 60.8885 -0.136051 67.741 6.68711L79.3807 18.2769L90.582 30.2962ZM49.9781 84.0758L48.6274 35.2576L72.9411 81.3636L49.9781 84.0758Z" fill="#0A0F0D"/>
 </svg>
   
-        <li><Link href="https://airtable.com/shri2ZKDLlRx7QG1S" target='_blank' className='button'>Get Started</Link></li>
+        <li><Link href="https://app.fillout.com/flow/ueioaUfgaxus" target='_blank' className='button'>Get Started</Link></li>
       </nav>
      
     </header>
@@ -26,13 +26,13 @@ function Home() {
           className='kigaliHacksHack' 
            >{`Kigali Hacks, Hack The Future. `}</div>
           <div className='joinUs'>
-            Join us at Kigali Hacks, the premier in-person high school
-            hackathon, and be a part of a 2-day journey of coding, building,
-            learning, and sharing, open to all high schoolers across Rwanda,
+            Join us at Kigali Hacks, in-person high school
+            hackathon be a part of a 12 hour journey of coding, building,
+            learning, and sharing.
+            Open to all high schoolers across Rwanda,
             technical or non-technical backgrounds. We warmly welcome you
           </div>
           <div className='inputs'>
-          <div  className='inputs1' />
           <input placeholder='Enterr email address' />
           <Image className='image3' width='90' height='92' alt="" src="../group-51.svg" />
         </div>
