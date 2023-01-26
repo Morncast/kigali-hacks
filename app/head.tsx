@@ -24,7 +24,7 @@ Join us at Kigali Hacks, the premier in-person high school hackathon, and be a p
 <meta property="twitter:url" content="https://hackathon-coral.vercel.app/"/>
 <meta property="twitter:title" content="MornCast Kigali Hacks Hackathon"/>
 <meta property="twitter:description" content="Kigali Hacks, Hack The Future.
-Join us at Kigali Hacks, the premier in-person high school hackathon, and be a part of a 2-day journey of coding, building, learning, and sharing, open to all high schoolers across Rwanda, technical or non-technical backgrounds. We warmly welcome you"/>
+Join us at Kigali Hacks, in-person high school hackathon be a part of a 12 hour journey of coding, building, learning, and sharing. Open to all high schoolers across Rwanda, technical or non-technical backgrounds. We warmly welcome you"/>
 
     </>
   )
