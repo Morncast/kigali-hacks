@@ -1,6 +1,6 @@
 ### Kigali Hacks
 
-> Students run a Hackathon 
+> A Students run Hackathon 
 
 If you're reading this, you should probably join us in Kigali, Rwanda this July for a 12-hour-long hackathon, building amazing things with code alongside other makers like you. 🥹
 
