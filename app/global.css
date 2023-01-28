@@ -346,3 +346,46 @@ input{
 }
  }
  
+ /** SMALLER MOBILES**/
+ /**TMG**/
+ @media (max-width: 360px){
+  body{
+    padding: 0;
+  }
+  main{
+    padding: 0px !important;
+  }
+  .main{
+    margin-right: 15px !important;
+  }
+  .image2{
+    width: 360px;
+    margin-left:70px !important;
+  }
+  .image{
+    float: right !important;
+  }
+  .kigaliHacksHack{
+    width: 355px !important;
+  }
+
+   .inputs{
+    margin-left: 5px !important;
+    margin-right: 10px !important;
+  }
+  .faqSection{
+    padding: 0px !important;
+    align-items: center;
+  }
+  .fqa{
+    margin: 0px;
+  }
+  .faqs{
+    margin-left: 30%!important;
+  }
+  .fqa .div{
+    width: 350px;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+ }
