@@ -79,7 +79,7 @@ function Home() {
           </i>
           <div className='wereSorryYouContainer'>
             <span>Everyone is eligible to particpate in Kigali Hacks 2023 if only you are in high school, and if you already graduated and still want to attend you can consider volunteering or mentoring for the event</span>
-            <span className='here'> email us at morncast@gmail.com</span>
+            <span className='here'> email us at info@morncast.live</span>
             <span>.</span>
           </div>
         </div>
