@@ -33,7 +33,9 @@ function Home() {
             technical or non-technical backgrounds. We warmly welcome you
           </div>
           <div className='inputs'>
-          <input placeholder='Organised by Morncast' disabled />
+          <Link className="input" href='https://bank.hackclub.com/donations/start/morncast' target='_blank' >
+          Organized by Morncast Donate here to support us
+          </Link>
         </div>
         </div>
     </main>
