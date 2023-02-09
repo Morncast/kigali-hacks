@@ -345,6 +345,11 @@ input{
 
 }
  }
+ .sticky{
+  position:fixed;
+top: 140px;
+  height: 60px;
+ }
  
  /** SMALLER MOBILES**/
  /**TMG**/

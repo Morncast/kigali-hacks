@@ -5,6 +5,7 @@ import humans from '../public/humans.png'
 function Home() {
   return (
     <div className='page'>
+
     <header>
       <nav>
       <svg width="97" height="98" viewBox="0 0 97 98" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,8 +43,10 @@ function Home() {
   <section>
   <div className='sponsors'>
   <div className='sponsors2'>Sponsors</div>
-        <Image className='image4' width='100' height='207' alt="" src="../hcb-logo-original-light.svg" />
+        <Image className='image4' width='100' height='207' alt="" src="../hcb-logo-original-dark.svg" />
+   
       </div>  
+      <Image className='sticky' width='200' height='207' alt="" src="../sticky.svg" />
   </section>
     
       <div className='faqSection'>
