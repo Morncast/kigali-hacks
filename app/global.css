@@ -216,10 +216,7 @@ padding: 20px;
   }
 
 .faqs {
-
   font-size:  var(--font-size-4xl);
-
-  
 }
 
 
@@ -394,3 +391,22 @@ top: 140px;
     margin-right: 5px !important;
   }
  }
+
+
+.sponsors_section {
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	padding-top: 30px;
+}
+
+.support_link {
+	background-color: #1a1a1a;
+	padding: 12px 30px;
+	border-radius: 5px;
+}
+
+.support_link a {
+	color: #fff;
+}
