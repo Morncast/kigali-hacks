@@ -16,7 +16,7 @@ function Home() {
 			<main>
 
 				<div>
-					<Image alt="" src="/humans.png" width={400} height={400} className='image2' />
+					<Image alt="" src="/humans.svg"   width='100' height='207' className='image2' />
 				</div>
 				<div className='main'>
 					<div
