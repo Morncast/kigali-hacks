@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   box-sizing: border-box;
   padding: 0;
@@ -119,10 +122,17 @@ top: -30px;
 
    
 }
+.prose{
+  padding: 20px;
+  margin: 20px;
+    position: relative;
+
+    left: 280px;
+ 
+}
 .image2{
     position: relative;
 
-    left: -40px;
 
     object-fit: cover;
     width: 860px;
@@ -139,7 +149,7 @@ top: -30px;
 .main{
   
 position: relative;
-right: 170px;
+
 
   
 
@@ -149,7 +159,6 @@ right: 170px;
 }
 .kigaliHacksHack {
     padding-top: 60px;
-    padding-bottom: 20px;
 
     width: 504px;
     font-size: 64px;
@@ -244,7 +253,7 @@ padding: 6px;
 
 .wereSorryYouContainer {
 padding: 20px;
-  width: 598.48px;
+
 
 }
 .here {
@@ -255,7 +264,7 @@ padding: 20px;
 margin-left: 20px;
 
  display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr ;
 
   grid-gap: 10px 10px;
   align-items: center;
