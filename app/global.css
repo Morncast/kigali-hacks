@@ -65,7 +65,7 @@ body {
 
 header{
 
-margin: 0 40px 0 40px;
+margin: 0 40px;
 
 
 }
@@ -285,7 +285,7 @@ margin-left: 20px;
  display: grid;
   grid-template-columns: 1fr ;
 
-  grid-gap: 10px 10px;
+  grid-gap: 10px;
   align-items: center;
   justify-content: center
 }
