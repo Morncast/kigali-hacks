@@ -11,10 +11,7 @@ function Home() {
   
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
-    const [minutes, setMinutes] = useState(0);
-    const [seconds, setSeconds] = useState(0);
-  
-    useEffect(() => {
+useEffect(() => {
       const target = new Date("7/28/2023 23:59:59");
   
       const interval = setInterval(() => {
@@ -29,11 +26,7 @@ function Home() {
         );
         setHours(h);
   
-        const m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-        setMinutes(m);
-  
-        const s = Math.floor((difference % (1000 * 60)) / 1000);
-        setSeconds(s);
+      
   
       }, 1000);
   
@@ -49,6 +42,7 @@ function Home() {
 						<path fillRule="evenodd" clipRule="evenodd" d="M90.582 30.2962C97.1765 37.3722 98.6816 47.8383 94.3511 56.5055L86.9954 71.2277L79.0983 85.663C74.4492 94.1614 65.0236 98.8361 55.4947 97.3696L39.3089 94.8786L23.2269 91.7809C13.7591 89.9571 6.4287 82.3803 4.86997 72.8066L2.22234 56.545L0.18019 40.1951C-1.02207 30.5696 3.87303 21.2121 12.4386 16.7618L26.988 9.2025L41.8079 2.19551C50.5327 -1.92966 60.8885 -0.136051 67.741 6.68711L79.3807 18.2769L90.582 30.2962ZM49.9781 84.0758L48.6274 35.2576L72.9411 81.3636L49.9781 84.0758Z" fill="#0A0F0D" />
 					</svg>
 					<div className='nav'>
+                    <li><Link href="#" target='_blank' className='button t1'>{days} {'d'} {hours} {'h'}</Link></li>
                     <li><Link href="https://bank.hackclub.com/donations/start/morncast" target='_blank' className='button'>Donate</Link></li>
 					<li><Link href="https://app.fillout.com/flow/ueioaUfgaxus" target='_blank'>Join us</Link></li>
 
