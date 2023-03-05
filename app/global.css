@@ -2,158 +2,171 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
+
 body {
 
-    background-color: #fefef9;
+	background-color: #fefef9;
 
-    font-size: var(--font-size-sm);
-    color: var(--black-black);
-    font-family: var(--font-abeezee);
-  }
+	font-size: var(--font-size-sm);
+	color: var(--black-black);
+	font-family: var(--font-abeezee);
+}
 
-  html,
+html,
 body {
-  scroll-behavior: smooth;
+
   overflow-x: hidden;
 }
-  :root {
-    /* fonts */
-    --font-abeezee: ABeeZee;
-  
-    /* font sizes */
-    --font-size-xs: 12.68px;
-    --font-size-sm: 16px;
-    --font-size-base: 18px;
-    --font-size-lg: 20px;
-    --font-size-xl: 21.13px;
-    --font-size-2xl: 24px;
-    --font-size-3xl: 34px;
-    --font-size-4xl: 54px;
-  
-    /* Colors */
-    --yellowish-white: #f5f1ea;
-    --black-black-00: #1a1a1a;
-    --black-black: #0a0f0d;
-    --color-gray-400: rgba(255, 255, 255, 0.8);
-    --color-gray-500: rgba(0, 0, 0, 0.5);
-    --black-black-80: rgba(10, 15, 13, 0.8);
-    --white-white: #fff;
-    --green: #ebffdb;
-    --color-black: #000;
-    --blue: #c5b6f0;
-  
-    /* Paddings */
-    --padding-xs: 10.567164421081543px;
-    --padding-sm: 12px;
-    --padding-md: 16.90746307373047px;
-    --padding-lg: 24px;
-  
-    /* border radiuses */
-    --br-sm: 6.34px;
-    --br-md: 8.45px;
-    --br-lg: 14px;
-  }
+
+:root {
+	/* fonts */
+	--font-abeezee: ABeeZee;
+
+	/* font sizes */
+	--font-size-xs: 12.68px;
+	--font-size-sm: 16px;
+	--font-size-base: 18px;
+	--font-size-lg: 20px;
+	--font-size-xl: 21.13px;
+	--font-size-2xl: 24px;
+	--font-size-3xl: 34px;
+	--font-size-4xl: 54px;
+
+	/* Colors */
+	--yellowish-white: #f5f1ea;
+	--black-black-00: #1a1a1a;
+	--black-black: #0a0f0d;
+	--color-gray-400: rgba(255, 255, 255, 0.8);
+	--color-gray-500: rgba(0, 0, 0, 0.5);
+	--black-black-80: rgba(10, 15, 13, 0.8);
+	--white-white: #fff;
+	--green: #ebffdb;
+	--color-black: #000;
+	--blue: #c5b6f0;
+
+	/* Paddings */
+	--padding-xs: 10.567164421081543px;
+	--padding-sm: 12px;
+	--padding-md: 16.90746307373047px;
+	--padding-lg: 24px;
+
+	/* border radiuses */
+	--br-sm: 6.34px;
+	--br-md: 8.45px;
+	--br-lg: 14px;
+}
 
 
 
 
 
-header{
+header {
 
-margin: 0 40px 0 40px;
+	margin: 0 40px;
 
 
 }
-nav{
- /* display: flex; */
-/* width: 441px;
+
+nav {
+	/* display: flex; */
+	/* width: 441px;
 height: 40px;  */
-display: flex;
-justify-content: space-between;
-align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
 }
 
-.nav{
-  display: flex;
-}
-li{
-/* padding-left: 44px; */
-
-list-style: none;
-padding-top: 20px;
-}
-a{
- text-decoration: none;
- color: var(--black-black-80);
-
- font-size: var(--font-size-sm);
+.nav {
+	display: flex;
 }
 
-svg{
- /* padding-top: 1px; */
- width: 60.8px;
-height: 97.64px;
+li {
+	/* padding-left: 44px; */
 
-}
-nav li a{
-  position: relative;
-  top: -12px;
-
-    border-radius: 6px;
-    background-color: var(--white-white);
-    border: 1px solid var(--color-gray-500);
-  
-    padding: var(--padding-sm) var(--padding-lg);
-  
-}
-nav li{
-  padding-left: 20px;
+	list-style: none;
+	padding-top: 20px;
 }
 
-.button{
+a {
+	text-decoration: none;
+	color: var(--black-black-80);
 
-  background-color: #EBFFDB;
+	font-size: var(--font-size-sm);
 }
-main{
-    display: flex;
-flex-direction: row;
+
+svg {
+	/* padding-top: 1px; */
+	width: 60.8px;
+	height: 97.64px;
+
 }
-.image{
-    position: absolute;
-right: 300px;
-top: -30px;
-    height: 840px;
 
-   
+nav li a {
+	position: relative;
+	top: -12px;
+
+	border-radius: 6px;
+	background-color: var(--white-white);
+	border: 1px solid var(--color-gray-500);
+
+	padding: var(--padding-sm) var(--padding-lg);
+
 }
-.prose{
-  padding: 20px;
-  margin: 20px;
-    position: relative;
 
-    left: 280px;
- 
+nav li {
+	padding-left: 20px;
 }
-.image2{
-    position: relative;
 
+.button {
 
-    object-fit: cover;
-    width: 2260px;
-    height: 549px;
+	background-color: #EBFFDB;
 }
-.image4{
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+.image {
+	position: absolute;
+	right: 300px;
+	top: -30px;
+	height: 840px;
 
 
-  object-fit: cover;
-  width: 200px;
-  height: 49px;
+}
+
+.prose {
+	padding: 20px;
+	margin: 20px;
+	position: relative;
+
+	left: 280px;
+
+}
+
+.image2 {
+	position: relative;
+
+
+	object-fit: cover;
+	width: 2260px;
+	height: 549px;
+}
+
+.image4 {
+
+
+	object-fit: cover;
+	width: 200px;
+	height: 49px;
 }
 
 .image5{
@@ -167,97 +180,98 @@ z-index:-1;
   height: 669px;
 }
 
-.main{
-  
-position: relative;
+.main {
+
+	position: relative;
 
 
-  
 
-    font-size: var(--font-size-base);
-    color: var(--black-black-80);
-   
+
+	font-size: var(--font-size-base);
+	color: var(--black-black-80);
+
 }
+
 .kigaliHacksHack {
-    padding-top: 60px;
+	padding-top: 60px;
 
-    width: 504px;
-    font-size: 64px;
-    line-height: 64px;
-    color: var(--black-black);
-  }
+	width: 504px;
+	font-size: 64px;
+	line-height: 64px;
+	color: var(--black-black);
+}
 
-  .joinUs{
-    line-height: 32px;
-    display: inline-block;
-    width: 460px;
-  }
+.joinUs {
+	line-height: 32px;
+	display: inline-block;
+	width: 460px;
+}
 
-  .inputs{
-    position: relative;
-    top: 40px;
-    width: 440px;
-    height: 66px;
-  }
+.inputs {
+	position: relative;
+	top: 40px;
+	width: 440px;
+	height: 66px;
+}
 
-  .input{
- 
-    padding: 20px;
-    border-radius: 10px;
-    background-color: var(--green);
-    border: 1px solid var(--black-black-80);
-    box-sizing: border-box;
-    width: 400px;
-    
-    line-height: 16px;
-    height: 66px;
-  }
- 
- 
-  .sponsors{
-    margin:40px 0 20px 0px ;
-padding: 20px;
-    text-align: center;
-    font-size: var(--font-size-2xl);
-  }
-  
+.input {
 
-  .sponsors2{
-    margin:0px 0 20px 0px ;
-    line-height: 24px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: var(--green);
+	border: 1px solid var(--black-black-80);
+	box-sizing: border-box;
+	width: 400px;
 
-  }
-
-  .faqSection {
-
- 
+	line-height: 16px;
+	height: 66px;
+}
 
 
-  
-    padding: 60px;
+.sponsors {
+	margin: 40px 0 20px 0px;
+	padding: 20px;
+	text-align: center;
+	font-size: var(--font-size-2xl);
+}
 
-    background-color: var(--black-black);
+
+.sponsors2 {
+	margin: 0px 0 20px 0px;
+	line-height: 24px;
+
+}
+
+.faqSection {
 
 
 
-    font-size: var(--font-size-3xl);
-    color: var(--white-white);
 
-  }
+
+	padding: 60px;
+
+	background-color: var(--black-black);
+
+
+
+	font-size: var(--font-size-3xl);
+	color: var(--white-white);
+
+}
 
 .faqs {
-  font-size:  var(--font-size-4xl);
+	font-size: var(--font-size-4xl);
 }
 
 
 
 .div {
-  background-color: var(--black-black-00);
-  border: 1px solid var(--white-white);
-  box-sizing: border-box;
-padding: 6px;
-  font-size: var(--font-size-base);
-  color: var(--color-gray-400);
+	background-color: var(--black-black-00);
+	border: 1px solid var(--white-white);
+	box-sizing: border-box;
+	padding: 6px;
+	font-size: var(--font-size-base);
+	color: var(--color-gray-400);
 
 
 }
@@ -1090,179 +1104,191 @@ color: var(--yellowish-white);
 }
 
 .iNeedHelp {
-  padding: 10px ;
- 
-  font-size: var(--font-size-2xl);
-  color: var(--white-white);
+	padding: 10px;
+
+	font-size: var(--font-size-2xl);
+	color: var(--white-white);
 
 
 }
 
 .wereSorryYouContainer {
-padding: 20px;
+	padding: 20px;
 
 
 }
+
 .here {
-  color: var(--blue);
-}
-.fqa{
-
-margin-left: 20px;
-
- display: grid;
-  grid-template-columns: 1fr ;
-
-  grid-gap: 10px 10px;
-  align-items: center;
-  justify-content: center
+	color: var(--blue);
 }
 
-footer{
+.fqa {
 
-  background-color: var(--green);
+	margin-left: 20px;
 
-padding: 20px;
- 
+	display: grid;
+	grid-template-columns: 1fr;
 
-  color: var(--black-black-80);
+	grid-gap: 10px;
+	align-items: center;
+	justify-content: center
+}
+
+footer {
+
+	background-color: var(--green);
+
+	padding: 20px;
+
+
+	color: var(--black-black-80);
 }
 
 
 
-.copyright{
+.copyright {
 
-  text-align: left;
+	text-align: left;
 }
 
 
 /* /tablet and mobile */
- @media (max-width: 1023px) {
+@media (max-width: 1023px) {
 
-  .fqa{
+	.fqa {
 
-    margin-left: 20px;
-    
-     display: grid;
-      grid-template-columns: 1fr;
-    
-      grid-gap: 10px;
-    
-      justify-content: center
-    }
+		margin-left: 20px;
 
-    main{
-      padding: 20px ;   
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: auto;
+		display: grid;
+		grid-template-columns: 1fr;
 
-  }
-  .main{
-  
-    right: -70px;
+		grid-gap: 10px;
 
-  }
+		justify-content: center
+	}
+
+	main {
+		padding: 20px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+
+	}
+
+	.main {
+
+		right: -70px;
+
+	}
 
 
-  .iNeedHelp {
-    padding: 10px ;
-   
-    font-size: var(--font-size-2xl);
-    color: var(--white-white);
-  
-  
-  }
-  
-  .wereSorryYouContainer {
-  padding: 20px;
-    width: auto;
-  
-  }
-  .joinUs {
-width: 340px;
+	.iNeedHelp {
+		padding: 10px;
 
-} 
+		font-size: var(--font-size-2xl);
+		color: var(--white-white);
 
-input{
- 
-  width: 320px;
- 
-  
+
+	}
+
+	.wereSorryYouContainer {
+		padding: 20px;
+		width: auto;
+
+	}
+
+	.joinUs {
+		width: 340px;
+
+	}
+
+	input {
+
+		width: 320px;
+
+
+	}
+
+
+	.image2 {
+
+
+		left: 0px !important;
+
+
+		width: 560px;
+
+	}
 }
 
-
-.image2{
-
-
-  left: 0px !important;
-
-
-  width: 560px;
-
+.sticky {
+	position: fixed;
+	top: 140px;
+	height: 60px;
 }
- }
- .sticky{
-  position:fixed;
-top: 140px;
-  height: 60px;
- }
- 
- /** SMALLER MOBILES**/
- /**TMG**/
- @media (max-width: 360px){
-  body{
-    padding: 0;
-  }
+
+/** SMALLER MOBILES**/
+/**TMG**/
+@media (max-width: 360px) {
+	body {
+		padding: 0;
+	}
 
 
-  main{
-    padding: 0px !important;
-  }
-  .main{
-    margin-right: 15px !important;
-  }
-  .image2{
-    left: 0px !important;
-    width: 460px;
-    margin-left:70px !important;
-  }
-  .image{
-    float: right !important;
-  }
-  .kigaliHacksHack{
-    width: 355px !important;
-  }
+	main {
+		padding: 0px !important;
+	}
 
-   .inputs{
-    margin-left: 5px !important;
-    margin-right: 10px !important;
-  }
-  .faqSection{
-    padding: 0px !important;
-    align-items: center;
-  }
-  .fqa{
-    margin: 0px;
-  }
-  .faqs{
-    margin-left: 30%!important;
-  }
-  .fqa .div{
-    width: 350px;
-    margin-left: 5px !important;
-    margin-right: 5px !important;
-  }
+	.main {
+		margin-right: 15px !important;
+	}
+
+	.image2 {
+		left: 0px !important;
+		width: 460px;
+		margin-left: 70px !important;
+	}
+
+	.image {
+		float: right !important;
+	}
+
+	.kigaliHacksHack {
+		width: 355px !important;
+	}
+
+	.inputs {
+		margin-left: 5px !important;
+		margin-right: 10px !important;
+	}
+
+	.faqSection {
+		padding: 0px !important;
+		align-items: center;
+	}
+
+	.fqa {
+		margin: 0px;
+	}
+
+	.faqs {
+		margin-left: 30% !important;
+	}
+
+	.fqa .div {
+		width: 350px;
+		margin-left: 5px !important;
+		margin-right: 5px !important;
+	}
 
 }
 
 
 .sponsors_section {
-	display: flex; 
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 3rem;
 	padding-top: 30px;
 }
-
