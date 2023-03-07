@@ -179,6 +179,10 @@ z-index:-1;
   width: 270px;
   height: 669px;
 }
+.page{
+  margin: auto;
+  padding: auto;
+}
 
 .main {
 
@@ -1229,7 +1233,7 @@ footer {
 }
 
 /** SMALLER MOBILES**/
-/**TMG**/
+/**TMG 1ST**/
 @media (max-width: 360px) {
 	body {
 		padding: 0;
@@ -1291,4 +1295,40 @@ footer {
 	justify-content: center;
 	gap: 3rem;
 	padding-top: 30px;
+}
+/**TMG1ST**/
+@media (max-width: 651px){
+
+.nav{
+  display: block;
+}
+.nav li {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+#event-main-box{
+  margin-bottom: 100px;
+}
+#timeline{
+  margin-top: auto;
+}
+}
+@media (max-width: 651px){
+  .timeline-input{
+   width: 10px; ;
+   height: 10px; ;
+   margin: auto;
+  }
+  .dot-info{
+   margin-left: auto;
+  }
+}
+@media (max-width: 500px){
+  .image2{
+    margin-bottom: -250PX;
+  }
+  .kigaliHacksHack{
+    color: rgb(40, 252, 199);
+    font-weight: bolder;
+  }
 }
