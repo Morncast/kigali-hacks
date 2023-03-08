@@ -131,9 +131,18 @@ useEffect(() => {
                                         <h3>Opening Ceremony</h3>
                                         <h4 className="timeline-description-subtitle">7/28 | 9:0aam - 10:00am</h4>
                                         <br/>
-                                        <p className="timeline-description">The official start of the hackathon where we deliver the opening presentation along with the finalized teams, prompts, rules, and timeline.
+                                        <p className="timeline-description">The official start of the hackathon where we deliver the opening presentation along with the finalized prompts, rules, and timeline.
                                             <ul className="timeline-description-list">
-                                                <li>It is highly recommended you attend this portion of the hackathon (at least half of your team must attend to participate)</li>
+                                                <li>It is highly recommended you attend this portion of the hackathon</li>
+
+                                                <li><span className="important-text">=IMPORTANT=</span> Link for prompts, rules and rubric
+                                                <br />
+                                                <Link href='https://docs.google.com/document/d/1i0gYoNs3rFDjX8H-_yPBiX31IiHTJphAoBMDW0Fu2Xo/edit?usp=sharing' className="link" target='_blank'>Prompts</Link>
+                                                 <br />
+                                                <Link href='https://docs.google.com/document/d/1CAQVuwHnKbs9ZMHQsU4hLUvyMlREhrdKluN86H-ock4/edit?usp=sharing' className="link" target='_blank'>Rubric</Link>
+                                               <br />
+                                                <Link href='https://morncast.live/code' className='link' target='_blank'>Rules</Link>
+                                                </li>
                                                 <li><span className="important-text">=IMPORTANT=</span> DO NOT START CODING during this period</li>
                                             </ul>
                                         </p>
