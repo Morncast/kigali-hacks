@@ -90,7 +90,6 @@ useEffect(() => {
                         </ul>
                         
                     </div>
-                    <Image className='image5' width='100' height='207' alt="" src="/cat.png" />
 					<div id="timeline">
                         <h2 id="timeline-heading">Timeline</h2>
                         <span className="caption">Click on each dot for more info</span>
