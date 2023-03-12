@@ -44,7 +44,7 @@ useEffect(() => {
 					<div className='nav'>
                     
                     <li><Link href="https://bank.hackclub.com/donations/start/morncast" target='_blank' className='button'>Donate</Link></li>
-					<li><Link href="https://app.fillout.com/flow/ueioaUfgaxus" target='_blank'>Join us</Link></li>
+					<li><Link href="https://forms.fillout.com/t/oBJzDyJHTyus" target='_blank'>Join us</Link></li>
                     <li><Link href="#" target='_blank' className='button t1'>{days} {'d'} {hours} {'h'}</Link></li>
 
 					</div>
