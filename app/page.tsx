@@ -128,7 +128,7 @@ useEffect(() => {
                                             <div className="right"></div>
                                         </div>
                                         <h3>Opening Ceremony</h3>
-                                        <h4 className="timeline-description-subtitle">7/28 | 9:0aam - 10:00am</h4>
+                                        <h4 className="timeline-description-subtitle">7/28 | 9:00am - 10:00am</h4>
                                         <br/>
                                         <p className="timeline-description">The official start of the hackathon where we deliver the opening presentation along with the finalized prompts, rules, and timeline.
                                             <ul className="timeline-description-list">
@@ -201,7 +201,7 @@ useEffect(() => {
                                             <div className="right"></div>
                                         </div>
                                         <h3>Awards Ceremony</h3>
-                                        <h4 className="timeline-description-subtitle">8/14 | 4:00pm - 4:30pm</h4><br/>
+                                        <h4 className="timeline-description-subtitle">7/28 | 9:30pm - 10:00pm</h4><br/>
                                         <p className="timeline-description">{"Congratulations! Judge scores are tallied and here's where we announce the 1st, 2nd, and 3rd place teams along with constructive feedback for each in the "}
                                             <ul className="timeline-description-list">
                                                 <li><u>Winners</u>: we will contact you via Email about your prizes; allow up to 2 days for a response</li>
@@ -215,57 +215,59 @@ useEffect(() => {
                     
  </article>
 		  </div>
-  {/* <div id='schedule'>
+  <div id='schedule'>
 
  
             
-    <div className='schedule-parent slide-animation'>
+  <div className='schedule-parent slide-animation'>
   
-    <div className="schedule-element">
-    <div id="schedule-title" className="slide-animation">
-                <h2 id="schedule-heading">Event Schedule</h2>
-                <span className="caption">This is not the official 2023 Hackathon schedule, it might change.</span>
-            </div>
-                    <h3 className="time-column-header">Saturday</h3>
-                    <div className="schedule-container">
+  <div className="schedule-element">
+  <div id="schedule-title" className="slide-animation">
+              <h2 id="schedule-heading">Event Schedule</h2>
+              <span className="caption">This is not the official 2023 Hackathon schedule, it might change.</span>
+          </div>
+                  <h3 className="time-column-header">Friday</h3>
+                  <div className="schedule-container">
+                  
+                      <div className="time start-800"><span>7:00am</span></div>
+                      <div className="time start-900"><span>8:00am</span></div>
+                      <div className="time start-1000"><span>9:00am</span></div>
+                      <div className="time start-1100"><span>10:00am</span></div>
+                      <div className="time start-1200"><span>11:00am</span></div>
+                      <div className="time start-1300"><span>12:00pm</span></div>
+                      
+                      <div className="time start-1400"><span>1:00pm</span></div>
+                      <div className="time start-1500"><span>2:00pm</span></div>
+                      <div className="time start-1600"><span>3:00pm</span></div>
+                      <div className="time start-1700"><span>4:00pm</span></div>
+                      <div className="time start-1800"><span>6:00pm</span></div>
+                      <div className="time start-1900"><span>7:00pm</span></div>
+                      <div className="time start-2000"><span>8:00pm</span></div>
+                      <div className="time start-2100"><span>9:00pm</span></div>
                     
-                        <div className="time start-800"><span>8:00am</span></div>
-                        <div className="time start-900"><span>9:00am</span></div>
-                        <div className="time start-1000"><span>10:00am</span></div>
-                        <div className="time start-1100"><span>11:00am</span></div>
-                        <div className="time start-1200"><span>12:00pm</span></div>
-                        <div className="time start-1300"><span>1:00pm</span></div>
-                        <div className="time start-1400"><span>2:00pm</span></div>
-                        <div className="time start-1500"><span>3:00pm</span></div>
-                        <div className="time start-1600"><span>4:00pm</span></div>
-                        <div className="time start-1700"><span>5:00pm</span></div>
-                        <div className="time start-1800"><span>6:00pm</span></div>
-                        <div className="time start-1900"><span>7:00pm</span></div>
-                        <div className="time start-2000"><span>8:00pm</span></div>
-                        <div className="time start-2100"><span>9:00pm</span></div>
-                        
-                     
-                        <div className="event start-800 end-800 length-4 empty"></div>
-                        <div className="event logistics start-900 end-900 length-2">Check In<span>9 - 9:30am</span></div>
-                        <div className="event logistics start-900 end-900 length-2">Opening Ceremony<span>9:30 - 10am</span></div>
-                        <div className="event hacking start-1000 end-1000 length-4">✅ Hacking starts<span>Start 10am</span></div>
-                        <div className="event workshop start-1100 end-1100 length-4" >🌐 Web Dev Workshop<span>11am - 12pm</span></div>
-                        <div className="event food start-1200 end-1200 length-4" >🍕 Lunch<span>12 - 1pm</span></div>
-                        <div className="event start-1300 end-1300 length-4 empty"></div>
-                        <div className="event workshop start-1400 end-1400 length-4" >💻 Python Workshop<span>2 - 3pm</span></div>
-                        <div className="event start-1500 end-1500 length-4 empty"></div>
-                        <div className="event game start-1600 end-1600 length-4" >🏓 Ping Pong Tournament<span>Start 4pm</span></div>
-                        <div className="event game start-1700 end-1700 length-4">🤔 Kahoot (Programming Concepts)<span>Start 5pm</span></div>
-                        <div className="event start-1800 end-1800 length-4 empty"></div>
-                        <div className="event start-1900 end-1900 length-4 empty"></div>
-                        <div className="event start-2000 end-2000 length-4 empty"></div>
-                        <div className="event start-2100 end-2100 length-4 empty"></div>
-                    </div>
-                </div>
-    </div>
+                   
+                      <div className="event start-800 end-800 length-4 empty"></div>
+                      <div className="event logistics start-900 end-900 length-2">Check In<span>8 - 9:00am</span></div>
+                      <div className="event logistics start-900 end-900 length-2">Opening Ceremony<span>9:00 - 10am</span></div>
+                      <div className="event hacking start-1000 end-1000 length-4">✅ Hacking starts<span>Start 10am</span></div>
+                      <div className="event workshop start-1100 end-1100 length-4" >🌐 Web Dev Workshop<span>11am - 12pm</span></div>
+                      <div className="event food start-1200 end-1200 length-4" >🍕 Lunch<span>12 - 1pm</span></div>
+                      <div className="event start-1300 end-1300 length-4 empty"></div>
+                      <div className="event workshop start-1400 end-1400 length-4" >💻 Python Workshop<span>1:30 - 2:30pm</span></div>
+                      {/* <div className="event start-1500 end-1500 length-4 empty"></div> */}
+                      <div className="event game start-1600 end-1400 length-4" >🏓 Ping Pong Tournament<span>Start 3pm</span></div>
+                      <div className="event game start-1700 end-1700 length-4">🤖 AI (Artificial Intelligence) Workshop<span>Start 4pm - 6pm</span></div>
+                      <div className="event start-1800 end-1800 length-4 empty"></div>
+                      <div className="event start-1900 end-1900 length-4 empty"></div>
+                      <div className="event start-2000 end-2000 length-4 empty"></div>
+                      <div className="event start-2100 end-2100 length-4 empty"></div>
+                  </div>
+              </div>
+  </div>
+
 
   
-  </div> */}
+  </div>
 			<hr id="line-header"/>
 				<div className='sponsors'>
 					<div className='sponsors2'>Sponsors</div>
