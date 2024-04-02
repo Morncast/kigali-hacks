@@ -140,7 +140,7 @@ useEffect(() => {
                                                  <br />
                                                 <Link href='https://docs.google.com/document/d/1CAQVuwHnKbs9ZMHQsU4hLUvyMlREhrdKluN86H-ock4/edit?usp=sharing' className="link" target='_blank'>Rubric</Link>
                                                <br />
-                                                <Link href='https://morncast.live/code' className='link' target='_blank'>Rules</Link>
+                                                <Link href='https://kigalihacks.live/code' className='link' target='_blank'>Rules</Link>
                                                 </li>
                                                 <li><span className="important-text">=IMPORTANT=</span> DO NOT START CODING during this period</li>
                                             </ul>

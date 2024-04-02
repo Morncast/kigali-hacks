@@ -10,7 +10,7 @@ date: "2023-2-18"
 - Treat everyone with respect and kindness.
 - Be thoughtful in how you communicate.
 - Don't be destructive or inflammatory.
-- If you encounter an issue, please mail <conduct@morncast.live>.
+- If you encounter an issue, please mail <conduct@kigalihacks.live>.
 
 ## Why have a Code of Conduct?
 
@@ -74,14 +74,14 @@ Please understand that speech and actions have consequences, and unacceptable be
 
 This procedure only serves as a general guideline for moderation & enforcement of our community conduct. Under all circumstances, the Working Group or Morncast Community's  members may take any action we deem appropriate, including immediate removal from the community. Being banned from the Morncast Community  may also prevent you from participating in our community events.
 
-Please understand that we will not restrict your ability to contact the [Code of Conduct team](morncast) under any circumstance. If you have any questions or concerns about our decision, please reach out to us directly. If your Slack account is under suspension, email us directly at <conduct@morncast.live>.
+Please understand that we will not restrict your ability to contact the [Code of Conduct team](morncast) under any circumstance. If you have any questions or concerns about our decision, please reach out to us directly. If your Slack account is under suspension, email us directly at <conduct@kigalihacks.live>.
 
 
 ## Reporting Issues
 
 If you encounter a conduct-related issue, you should report it to the Working Group using the process described below. **Do not** post about the issue publicly or try to rally sentiment against a particular individual or group.
 
-- Mail <conduct@morncast.live>
+- Mail <conduct@kigalihacks.live>
  - Every thing will remain private
  - Immediately report anything that violate code of conduct if you see one
 
