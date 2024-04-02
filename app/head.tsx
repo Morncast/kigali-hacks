@@ -8,7 +8,7 @@ export default function Head() {
 			<meta name="title" content="MornCast Kigali Hacks Hackathon" />
 
 			<meta name="author" content="Morncast community"/>
- <meta name="copyright" content="This is site and its content is copyright (c) 2023 of Morncast community"/>
+ <meta name="copyright" content="This is site and its content is copyright (c) 2024 of Morncast community"/>
  <meta name="keywords" content="morncast, kigali, hackathon, hack, kigali hacks, kigali hackathon, kigali hack, kigali hacks hackathon "/>
 			<meta name="description" content="Kigali Hacks, Hack The Future.
 Join us at Kigali Hacks, in-person high school hackathon be a part of a 12 hour journey of coding, building, learning, and sharing. Open to all high schoolers across Rwanda, technical or non-technical backgrounds. We warmly welcome you"/>

@@ -12,7 +12,7 @@ function Home() {
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
 useEffect(() => {
-      const target = new Date("7/28/2023 23:59:59");
+      const target = new Date("7/28/2024 23:59:59");
   
       const interval = setInterval(() => {
         const now = new Date();
@@ -83,8 +83,8 @@ useEffect(() => {
                         <ul className="list">
                             <li>{"Even if you're not an expert at coding, this hackathon offers an opportunity for you to strengthen your skills and collaborate with others to create something useful. Below are important dates to keep in mind:"}
                                 <ul style={{marginLeft: '25px'}}>
-                                    <li><span className="emphasis-text">Jul 26</span> Signup Period Ends</li>
-                                    <li><span className="emphasis-text">Jul 28</span> 2023 Hackathon</li>
+                                    <li><span className="emphasis-text">Jun 26</span> Signup Period Ends</li>
+                                    <li><span className="emphasis-text">Jun 28</span> 2024 Hackathon</li>
                                 </ul>
                             </li>
                         </ul>
@@ -224,7 +224,7 @@ useEffect(() => {
   <div className="schedule-element">
   <div id="schedule-title" className="slide-animation">
               <h2 id="schedule-heading">Event Schedule</h2>
-              <span className="caption">This is not the official 2023 Hackathon schedule, it might change.</span>
+              <span className="caption">This is not the official 2024 Hackathon schedule, it might change.</span>
           </div>
                   <h3 className="time-column-header">Friday</h3>
                   <div className="schedule-container">
@@ -319,7 +319,7 @@ useEffect(() => {
 							Who can attend?
 						</i>
 						<div className='wereSorryYouContainer'>
-							<span>Everyone is eligible to particpate in Kigali Hacks 2023 if only you are in high school, and if you already graduated and still want to attend you can consider volunteering or mentoring for the event</span>
+							<span>Everyone is eligible to particpate in Kigali Hacks 2024 if only you are in high school, and if you already graduated and still want to attend you can consider volunteering or mentoring for the event</span>
 							<span className='here'> email us at info@morncast.live</span>
 							<span>.</span>
 						</div>
@@ -352,7 +352,7 @@ useEffect(() => {
 				<div className='copyright'>
 					<p>Morncast is fiscally sponsored by Hack Club Bank, a project by The Hack
 						Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499). </p>
-					<p> Copyright &copy; 2023.</p>
+					<p> Copyright &copy; 2024.</p>
 				</div>
 			</footer>
 		</div>
