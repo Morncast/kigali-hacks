@@ -1,24 +1,27 @@
 'use client';
+import { Awards } from '@/components/awards';
 import Image from 'next/image';
 import Link from 'next/link';
 
 import { useEffect, useState } from 'react';
 
 function Home() {
-	const [days, setDays] = useState(0);
-	const [hours, setHours] = useState(0);
-	useEffect(() => {
-		const target = new Date('7/28/2024 23:59:59');
-		const interval = setInterval(() => {
-			const now = new Date();
-			const difference = target.getTime() - now.getTime();
-			const d = Math.floor(difference / (1000 * 60 * 60 * 24));
-			setDays(d);
-			const h = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			setHours(h);
-		}, 1000);
-		return () => clearInterval(interval);
-	}, []);
+	// const [days, setDays] = useState(0);
+	// const [hours, setHours] = useState(0);
+	// useEffect(() => {
+	// 	const target = new Date('7/28/2024 23:59:59');
+	// 	const interval = setInterval(() => {
+	// 		const now = new Date();
+	// 		const difference = target.getTime() - now.getTime();
+	// 		const d = Math.floor(difference / (1000 * 60 * 60 * 24));
+	// 		setDays(d);
+	// 		const h = Math.floor(difference / (1000 * 60 * 60 * 24 * 30));
+	// 		setHours(h);
+	// 		console.log(h);
+	// 	}, 1000);
+	// 	return () => clearInterval(interval);
+	// }, []);
+
 	return (
 		<div className="page">
 			<header>
@@ -90,7 +93,7 @@ function Home() {
 							className="blob green"
 							aria-hidden="true"
 						></div>
-						<h2 id="header-subtitle-spots">84 spots remaining</h2>
+						<h2 id="header-subtitle-spots"> Venue TBC</h2>
 					</div>
 				</div>
 			</main>
@@ -401,7 +404,7 @@ function Home() {
 						</div>
 					</div>
 				</div>
-
+				<Awards />
 				<hr id="line-header" />
 				<div className="sponsors">
 					<div className="sponsors2">Sponsors</div>
