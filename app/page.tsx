@@ -144,7 +144,7 @@ function Home() {
 									className="dot-info"
 									data-description="1"
 								>
-									<span className="year">7/28 9:00am</span>
+									<span className="year">7/28 8:20am</span>
 									<span className="label">Opening Ceremony</span>
 								</div>
 								<input
@@ -412,7 +412,7 @@ function Home() {
 					<div className="sponsors_section">
 						<div>
 							<Link
-								href="https://hackclub.com/bank/"
+								href="https://hackclub.com/"
 								target="_blank"
 							>
 								<Image
@@ -421,6 +421,21 @@ function Home() {
 									height="207"
 									alt=""
 									src="/hcb-logo-original-dark.svg"
+								/>
+							</Link>
+						</div>
+
+						<div>
+							<Link
+								href="https://ironji.com/"
+								target="_blank"
+							>
+								<Image
+									className="image4"
+									width="100"
+									height="207"
+									alt=""
+									src="/ironji_logo.jpg"
 								/>
 							</Link>
 						</div>
@@ -492,8 +507,7 @@ function Home() {
 			<footer>
 				<div className="copyright">
 					<p>
-						Morncast is fiscally sponsored by Hack Club Bank, a project by The Hack Foundation (d.b.a. Hack
-						Club), a 501(c)(3) nonprofit (EIN: 81-2908499).{' '}
+					Morncast is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
 					</p>
 					<p> Copyright &copy; 2024.</p>
 				</div>
