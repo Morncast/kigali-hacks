@@ -55,7 +55,7 @@ function Home() {
 								href="https://lu.ma/nlmfhe7f"
 								target="_blank"
 							>
-								
+								Register for Event
 							</Link>
 						</li>
 						<li>
