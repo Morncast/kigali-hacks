@@ -52,10 +52,10 @@ function Home() {
 						</li>
 						<li>
 							<Link
-								href="https://forms.fillout.com/t/oBJzDyJHTyus"
+								href="https://lu.ma/nlmfhe7f"
 								target="_blank"
 							>
-								Join us
+								
 							</Link>
 						</li>
 						<li>
@@ -436,6 +436,21 @@ function Home() {
 									height="207"
 									alt=""
 									src="/ironji_logo.jpg"
+								/>
+							</Link>
+						</div>
+
+						<div>
+							<Link
+								href="https://www.bktechouse.rw/"
+								target="_blank"
+							>
+								<Image
+									className="image4"
+									width="100"
+									height="207"
+									alt=""
+									src="/bk.svg"
 								/>
 							</Link>
 						</div>
