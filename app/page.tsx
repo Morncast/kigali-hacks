@@ -15,7 +15,7 @@ function Home() {
 			const difference = target.getTime() - now.getTime();
 			const d = Math.floor(difference / (1000 * 60 * 60 * 24));
 			setDays(d);
-			const h = Math.floor(difference / (1000 * 60 * 60 * 24));
+			const h = Math.floor(difference / (1000 * 60 * 60));
 			setHours(h);
 	
 		}, 1000);
@@ -115,10 +115,10 @@ function Home() {
 									}
 									<ul style={{ marginLeft: '25px' }}>
 										<li>
-											<span className="emphasis-text">Jun 26</span> Signup Period Ends
+											<span className="emphasis-text">Aug 10</span> Signup Period Ends
 										</li>
 										<li>
-											<span className="emphasis-text">Jun 28</span> 2024 Hackathon
+											<span className="emphasis-text">Aug 17</span> 2024 Hackathon
 										</li>
 									</ul>
 								</li>
@@ -424,7 +424,62 @@ function Home() {
 								/>
 							</Link>
 						</div>
-
+						<div>
+							<Link
+								href="https://www.bktechouse.rw/"
+								target="_blank"
+							>
+								<Image
+									className="image4"
+									width="100"
+									height="207"
+									alt=""
+									src="/bk.svg"
+								/>
+							</Link>
+						</div>
+						<div>
+							<Link
+								href="https://irembo.com/"
+								target="_blank"
+							>
+								<Image
+									className="image4"
+									width="100"
+									height="207"
+									alt=""
+									src="/irembo.svg"
+								/>
+							</Link>
+						</div>
+						<div>
+							<Link
+								href="https://www.echo3d.com/"
+								target="_blank"
+							>
+								<Image
+									className="image4"
+									width="100"
+									height="207"
+									alt=""
+									src="/echo.png"
+								/>
+							</Link>
+						</div>
+						<div>
+							<Link
+								href="https://www.interviewcake.com/"
+								target="_blank"
+							>
+								<Image
+									className="image4"
+									width="100"
+									height="207"
+									alt=""
+									src="/cake.png"
+								/>
+							</Link>
+						</div>
 						<div>
 							<Link
 								href="https://ironji.com/"
@@ -440,20 +495,7 @@ function Home() {
 							</Link>
 						</div>
 
-						<div>
-							<Link
-								href="https://www.bktechouse.rw/"
-								target="_blank"
-							>
-								<Image
-									className="image4"
-									width="100"
-									height="207"
-									alt=""
-									src="/bk.svg"
-								/>
-							</Link>
-						</div>
+					
 					</div>
 				</div>
 				<Image
