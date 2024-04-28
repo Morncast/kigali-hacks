@@ -1,9 +1,11 @@
 'use client';
 import { Awards } from '@/components/awards';
+import { Sparkles } from '@/components/Sparkles';
+import { Wobble } from '@/components/wobble';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 function Home() {
 	const [days, setDays] = useState(0);
@@ -17,7 +19,6 @@ function Home() {
 			setDays(d);
 			const h = Math.floor(difference / (1000 * 60 * 60));
 			setHours(h);
-	
 		}, 1000);
 		return () => clearInterval(interval);
 	}, []);
@@ -71,6 +72,7 @@ function Home() {
 				</nav>
 			</header>
 			<main>
+				{' '}
 				<div>
 					<Image
 						alt=""
@@ -81,7 +83,8 @@ function Home() {
 					/>
 				</div>
 				<div className="main">
-					<div className="kigaliHacksHack">{`Kigali Hacks, Hack The Future. `}</div>
+					<Sparkles />
+
 					<div className="joinUs">
 						Join us at Kigali Hacks, in-person high school hackathon be a part of a 12 hour journey of coding,
 						building, learning, and sharing. Open to all high schoolers across Rwanda, technical or
@@ -406,7 +409,7 @@ function Home() {
 				</div>
 				<Awards />
 				<hr id="line-header" />
-				<div className="sponsors">
+				<div className="grid grid-cols-1 max-w-7xl gap-4 mx-auto w-full sponsors">
 					<div className="sponsors2">Sponsors</div>
 
 					<div className="sponsors_section">
@@ -416,7 +419,7 @@ function Home() {
 								target="_blank"
 							>
 								<Image
-									className="image4"
+									className="image4  object-contain"
 									width="100"
 									height="207"
 									alt=""
@@ -472,8 +475,8 @@ function Home() {
 								target="_blank"
 							>
 								<Image
-									className="image4"
-									width="100"
+									className="image4 object-contain"
+									width="200"
 									height="207"
 									alt=""
 									src="/cake.png"
@@ -486,7 +489,7 @@ function Home() {
 								target="_blank"
 							>
 								<Image
-									className="image4"
+									className="image4 object-contain"
 									width="100"
 									height="207"
 									alt=""
@@ -494,8 +497,6 @@ function Home() {
 								/>
 							</Link>
 						</div>
-
-					
 					</div>
 				</div>
 				<Image
@@ -511,60 +512,14 @@ function Home() {
 				<i className="faqs">FAQs</i>
 
 				<section className="fqa">
-					<div className="div">
-						<i className="iNeedHelp">What is a hackathon?</i>
-						<div className="wereSorryYouContainer">
-							<span>
-								A hackathon is an invention marathon where students come together to build, learn and share.
-								The project can be anything as long it solves a problem. Everyone will create their own
-								project in teams of up to 8 and at the end each team presents its project. The best projects
-								will get prizes, and there will be swag and food and drinks for everyone.
-							</span>
-						</div>
-					</div>
-
-					<div className="div">
-						<i className="iNeedHelp">Do I need to know how to code?</i>
-						<div className="wereSorryYouContainer">
-							<span>No, everyone is welcomed since there will be workshops that introduces some to </span>
-							<span className="here">programming</span>
-							<span>.</span>
-						</div>
-					</div>
-
-					<div className="div">
-						<i className="iNeedHelp">Who can attend?</i>
-						<div className="wereSorryYouContainer">
-							<span>
-								Everyone is eligible to particpate in Kigali Hacks 2024 if only you are in high school, and if
-								you already graduated and still want to attend you can consider volunteering or mentoring for
-								the event
-							</span>
-							<span className="here"> email us at info@morncast.live</span>
-							<span>.</span>
-						</div>
-					</div>
-
-					<div className="div">
-						<i className="iNeedHelp">How much does Kigali Hacks cost?</i>
-						<div className="wereSorryYouContainer">
-							<span>It cost nothing basically it is free.</span>
-						</div>
-					</div>
-
-					<div className="div">
-						<i className="iNeedHelp">Can I use past projects?</i>
-
-						<div className="wereSorryYouContainer">
-							<span>{"No, you can't use them"}</span>
-						</div>
-					</div>
+					<Wobble />
 				</section>
 			</div>
 			<footer>
 				<div className="copyright">
 					<p>
-					Morncast is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499).
+						Morncast is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit
+						(EIN: 81-2908499).
 					</p>
 					<p> Copyright &copy; 2024.</p>
 				</div>
