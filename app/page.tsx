@@ -483,6 +483,7 @@ function Home() {
 								/>
 							</Link>
 						</div>
+
 						<div>
 							<Link
 								href="https://ironji.com/"
@@ -494,6 +495,20 @@ function Home() {
 									height="207"
 									alt=""
 									src="/ironji_logo.jpg"
+								/>
+							</Link>
+						</div>
+						<div>
+							<Link
+								href="https://codecrafters.io/event/kigalihacks"
+								target="_blank"
+							>
+								<Image
+									className="image4 object-contain"
+									width="200"
+									height="207"
+									alt=""
+									src="/crafters.svg"
 								/>
 							</Link>
 						</div>
