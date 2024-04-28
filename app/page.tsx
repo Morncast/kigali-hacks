@@ -409,7 +409,7 @@ function Home() {
 				</div>
 				<Awards />
 				<hr id="line-header" />
-				<div className="grid grid-cols-1 max-w-7xl gap-4 mx-auto w-full sponsors">
+				<div className="sponsors">
 					<div className="sponsors2">Sponsors</div>
 
 					<div className="sponsors_section">
