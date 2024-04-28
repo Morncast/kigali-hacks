@@ -1,6 +1,7 @@
 'use client';
 import { Awards } from '@/components/awards';
 import { Sparkles } from '@/components/Sparkles';
+import { WobbleCard } from '@/components/ui/wobble';
 import { Wobble } from '@/components/wobble';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -73,15 +74,30 @@ function Home() {
 			</header>
 			<main>
 				{' '}
-				<div>
+				<WobbleCard containerClassName="h-[448px] bg-yellow-800 m-4 mt-[2rem]">
+					<div>
+						<h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+							The best way to learn is by building.
+						</h2>
+						<p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
+							<span>
+								A hackathon is a space that helps give makers everything they need to start building–mentors,
+								collaborators, inspiration, and a goal to work towards. Hackers will leave a hackathon with a
+								project of their own, ready and excited to keep hacking once they get home.
+								<br />
+								<br />A hackathon is a social coding marathon where teenagers come together to build projects
+								for a weekend and share them with the world.
+							</span>
+						</p>
+					</div>
 					<Image
-						alt=""
-						src="/humans.svg"
-						width="200"
-						height="207"
-						className="image2"
+						src="/hack.jpg"
+						width={500}
+						height={500}
+						alt="image"
+						className="absolute -right-10 md:-right-[40%] lg:-right-[20%] -bottom-10 object-contain rounded-2xl"
 					/>
-				</div>
+				</WobbleCard>
 				<div className="main">
 					<Sparkles />
 
