@@ -425,7 +425,7 @@ function Home() {
 				</div>
 				<Awards />
 				<hr id="line-header" />
-				<div className="grid grid-cols-1 max-w-7xl gap-4 mx-auto w-full sponsors">
+				<div className="sponsors">
 					<div className="sponsors2">Sponsors</div>
 
 					<div className="sponsors_section">
@@ -499,6 +499,7 @@ function Home() {
 								/>
 							</Link>
 						</div>
+
 						<div>
 							<Link
 								href="https://ironji.com/"
@@ -510,6 +511,20 @@ function Home() {
 									height="207"
 									alt=""
 									src="/ironji_logo.jpg"
+								/>
+							</Link>
+						</div>
+						<div>
+							<Link
+								href="https://codecrafters.io/event/kigalihacks"
+								target="_blank"
+							>
+								<Image
+									className="image4 object-contain"
+									width="200"
+									height="207"
+									alt=""
+									src="/crafters.svg"
 								/>
 							</Link>
 						</div>
