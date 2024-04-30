@@ -40,11 +40,11 @@ export function Awards() {
 				initial="initial"
 				animate="animate"
 				whileHover="hover"
-				className="flex flex-col justify-center items-center flex-1 w-full h-full min-h-[6rem] bg-dot-white/[0.2] md:flex-row md:space-x-2 md:my-4 "
+				className="grid grid-cols-1 gap-4 max-w-7xl mx-auto justify-center items-center flex-1 w-full h-full min-h-[6rem] bg-dot-white/[0.2] md:flex-row md:space-x-2 md:my-4 "
 			>
 				<motion.div
 					variants={first}
-					className="h-full w-1/3 rounded-2xl  p-4 bg-black border-white/[0.1] border flex flex-col items-center justify-center"
+					className="h-full w-1/3 col-span-1 rounded-2xl  p-4 bg-black border-white/[0.1] border flex flex-col items-center justify-center"
 				>
 					x<p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">1st place:</p>
 					<p className="border border-red-500 bg-red-100 bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
