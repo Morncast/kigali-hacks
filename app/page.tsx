@@ -57,7 +57,7 @@ function Home() {
 								href="https://lu.ma/nlmfhe7f"
 								target="_blank"
 							>
-								Register for Event
+								RSVP
 							</Link>
 						</li>
 						<li>
@@ -146,8 +146,8 @@ function Home() {
 					</article>
 
 					<div id="timeline">
-						<h2 id="timeline-heading">Timeline</h2>
-						<span className="caption">Click on each dot for more info</span>
+						<h2 id="timeline-heading">Timeline To be updated</h2>
+						<span className="caption">Click on each dot for more info, disclaimer this is not the official schedule. Once released we will let you know if you have RSVP</span>
 						<div className="flex-parent">
 							<div className="input-flex-container">
 								<input

@@ -656,6 +656,9 @@ main {
 	.kigaliHacksHack {
 		padding-top: 180px;
 	}
+	.t1{
+		visibility: hidden;
+	}
 
 	.dot-info span.year {
 		top: 0;
@@ -690,6 +693,9 @@ main {
 @media (max-width: 480px) {
 	.input-flex-container {
 		width: 340px;
+	}
+	.t1{
+		visibility: hidden;
 	}
 	#event-description {
 		width: 20rem;
@@ -865,6 +871,9 @@ footer {
 	body {
 		padding: 0;
 	}
+	.t1{
+		visibility: hidden;
+	}
 	#event-description {
 		width: 20rem;
 	}
@@ -939,7 +948,9 @@ footer {
 	#event-description {
 		width: 20rem;
 	}
-
+    .t1{
+		visibility: hidden;
+	}
 	.nav li {
 		padding-left: 10px;
 		margin-top: 10px;
@@ -966,6 +977,9 @@ footer {
 		height: 10px;
 		margin: auto;
 	}
+	.t1{
+		visibility: hidden;
+	}
 	#event-description {
 		width: 20rem;
 	}
@@ -985,6 +999,9 @@ footer {
 @media (max-width: 500px) {
 	.image2 {
 		margin-bottom: -250px;
+	}
+	.t1{
+		visibility: hidden;
 	}
 	#event-description {
 		width: 20rem;
