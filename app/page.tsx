@@ -125,7 +125,7 @@ function Home() {
 						<div className="joinUs">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
-					<div className="flex items-center flex-col m-2 md:flex-row lg:flex-row ">
+					<div className="">
 						<div>
 							<CardStacker />
 						</div>
