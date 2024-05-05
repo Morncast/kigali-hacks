@@ -181,6 +181,12 @@ main {
 	color: var(--black-black);
 }
 
+.kigaliHackswhy {
+	width: 504px;
+	font-size: 64px;
+	line-height: 64px;
+	color: var(--black-black);
+}
 .joinUs {
 	line-height: 32px;
 	display: inline-block;
