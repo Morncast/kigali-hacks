@@ -118,14 +118,14 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="w-1/2 text-center">
+				<div className="w-1/2 mx-auto text-center">
 					<h2 className="kigaliHacksHack">
 					Why you should join.
 						</h2>
 						<div className="joinUs">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
-					<div className="">
+					<div className="flex items-center flex-col justify-between gap-2 md:flex-row lg:flex-row ">
 						<div>
 							<CardStacker />
 						</div>
