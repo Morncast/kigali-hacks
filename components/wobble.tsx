@@ -35,8 +35,7 @@ export function Wobble() {
 				</h2>
 				<p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
 					<span>
-						Unfortunately, you can use them and if caught using one you and your team woont be able to get
-						cool awards
+					{"Unfortunately, you can use them and if caught using one you and your team woont be able to get cool awards"}
 					</span>
 				</p>
 			</WobbleCard>

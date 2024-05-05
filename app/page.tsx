@@ -1,5 +1,6 @@
 'use client';
 import { Awards } from '@/components/awards';
+import { CardStacker } from '@/components/cardstack';
 import { Sparkles } from '@/components/Sparkles';
 import { WobbleCard } from '@/components/ui/wobble';
 import { Wobble } from '@/components/wobble';
@@ -66,7 +67,7 @@ function Home() {
 								target="_blank"
 								className="button t1"
 							>
-								{days} d {hours} h
+								{days} days
 							</Link>
 						</li>
 					</div>
@@ -117,6 +118,19 @@ function Home() {
 				</div>
 			</main>
 			<section>
+				<div className="w-1/2 mx-auto text-center ">
+					<h2 id="timeline-heading">Why you should join</h2>
+					<span className="caption">{"Why Get Involved? You shouldn't misout."}</span>
+					<div className="flex items-center flex-col justify-center gap-10 md:flex-row lg:flex-row ">
+						<div>
+							<CardStacker />
+						</div>
+						<div>
+							<CardStacker />
+						</div>
+					</div>
+				</div>
+
 				<div id="event-time">
 					<article id="event-description">
 						<h2 id="description-heading">Our Mission Statement</h2>
@@ -147,7 +161,10 @@ function Home() {
 
 					<div id="timeline">
 						<h2 id="timeline-heading">Timeline To be updated</h2>
-						<span className="caption">Click on each dot for more info, disclaimer this is not the official schedule. Once released we will let you know if you have RSVP</span>
+						<span className="caption">
+							Click on each dot for more info, disclaimer this is not the official schedule. Once released we
+							will let you know if you have RSVP
+						</span>
 						<div className="flex-parent">
 							<div className="input-flex-container">
 								<input
