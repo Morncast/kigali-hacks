@@ -118,7 +118,7 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="max-w-4xl mx-auto md:auto-rows-[20rem] p-4 ">
+				<div className="max-w-4xl mx-auto md:auto-rows-[20rem] faqSection p-[5rem] ">
 					<div>
 					<h2 className="text-center kigaliHackswhy">
 					Why you should join.
@@ -126,12 +126,12 @@ function Home() {
 						<div className="text-center joinUs py-2">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
-					<div className="flex items-center flex-col justify-center gap-4  md:flex-row lg:flex-row ">
+					<div className="flex items-center flex-col justify-center gap-4  md:flex-row lg:flex-row  p-[5rem]">
 						<div>
 							<CardStacker  />
 						</div>
 						<div>
-							<CardStacker offset={20} scaleFactor={0.08} />
+							<CardStacker offset={12} scaleFactor={0.1} />
 						</div>
 					</div>
 
