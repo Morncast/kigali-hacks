@@ -38,14 +38,14 @@ export const CardStack = ({
   };
 
   return (
-    <div>
+    <div className=' w-60 md:w-96  '>
     <h2 className="text-center kigaliHackswhy">
 					Why you should join.
 						</h2>
 						<div className="text-center joinUs py-2">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
-          <div className="relative w-60 md:w-96  top-[300px]">
+          <div className="relative top-[300px]">
       
       {cards.map((card, index) => {
         return (
