@@ -119,7 +119,7 @@ function Home() {
 			</main>
 			<section>
 				<div className="w-1/2 mx-auto text-center">
-					<h2 className=" text-center kigaliHackswhy ">
+					<h2 className="text-center kigaliHackswhy">
 					Why you should join.
 						</h2>
 						<div className="text-center joinUs py-2">

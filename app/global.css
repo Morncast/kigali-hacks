@@ -185,6 +185,7 @@ main {
 	width: 504px;
 	font-size: 64px;
 	line-height: 64px;
+	text-align: center;
 	color: var(--black-black);
 }
 .joinUs {
@@ -660,7 +661,7 @@ main {
 		background-color: #aeb6bf;
 	}
 	.kigaliHacksHack {
-		padding-top: 180px;
+		padding-top: 10px;
 	}
 	.t1{
 		visibility: hidden;
@@ -713,7 +714,7 @@ main {
 		align-items: center;
 	}
 	.kigaliHacksHack {
-		padding-top: 180px;
+		padding-top: 10px;
 	}
 }
 @media (max-width: 400px) {
@@ -729,7 +730,7 @@ main {
 		align-items: center;
 	}
 	.kigaliHacksHack {
-		padding-top: 180px;
+		padding-top: 10px;
 	}
 }
 @keyframes grow-wide {
@@ -892,7 +893,7 @@ footer {
 		margin-right: 15px !important;
 	}
 	.kigaliHacksHack {
-		padding-top: 180px;
+		padding-top: 10px;
 	}
 
 	.image2 {
@@ -965,7 +966,7 @@ footer {
 		margin-bottom: 100px;
 	}
 	.kigaliHacksHack {
-		padding-top: 180px;
+		padding-top: 10px;
 	}
 
 	#timeline {
@@ -990,7 +991,7 @@ footer {
 		width: 20rem;
 	}
 	.kigaliHacksHack {
-		padding-top: 180px;
+		padding-top: 10px;
 	}
 
 	.dot-info {
@@ -1013,7 +1014,7 @@ footer {
 		width: 20rem;
 	}
 	.kigaliHacksHack {
-		padding-top: 180px;
+		padding-top: 10px;
 	}
 
 	#event-time {
