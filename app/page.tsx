@@ -118,11 +118,11 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="w-1/2 mx-auto text-center">
-					<h2 className="kigaliHacksHack">
+				<div className="w-1/2 mx-auto text-center p-2">
+					<h2 className=" text-center kigaliHacksHack ">
 					Why you should join.
 						</h2>
-						<div className="joinUs">
+						<div className="text-center joinUs">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
 					<div className="flex items-center flex-col justify-between gap-2 md:flex-row lg:flex-row ">
