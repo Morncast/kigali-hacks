@@ -45,11 +45,12 @@ export const CardStack = ({
 						<div className="text-center joinUs py-2">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
+          
       {cards.map((card, index) => {
         return (
           <motion.div
             key={card.id}
-            className="bg-black w-60  md:w-96 rounded-3xl p-4 shadow-xl borderborder-white/[0.1]  shadow-black/[0.1] shadow-white/[0.05]"
+            className="absolute bg-black w-60 top-[100px]  md:w-96 rounded-3xl p-4 shadow-xl borderborder-white/[0.1]  shadow-black/[0.1] shadow-white/[0.05]"
             style={{
               transformOrigin: "top center",
             }}
