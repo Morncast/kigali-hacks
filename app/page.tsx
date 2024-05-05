@@ -118,16 +118,14 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="w-1/2 mx-auto text-center">
-					<h2 className="text-balance text-base md:text-xl ">
+				<div className="w-1/2 text-center">
+					<h2 className="kigaliHacksHack">
 					Why you should join.
 						</h2>
-						<p className="text-base/6 text-neutral-200">
-							<span>
-							{"Why Get Involved? The reason why you shouldn't miss this."}
-							</span>
-						</p>
-					<div className="flex items-center flex-col justify-between gap-2 md:flex-row lg:flex-row ">
+						<div className="joinUs">
+						{"Why Get Involved? The reason why you shouldn't miss this."}
+					</div>
+					<div className="flex items-center flex-col m-2 md:flex-row lg:flex-row ">
 						<div>
 							<CardStacker />
 						</div>
