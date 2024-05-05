@@ -118,7 +118,7 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="flex items-center flex-row justify-center ">
+				<div className="max-w-4xl mx-auto md:auto-rows-[20rem] p-4 ">
 					<div>
 					<h2 className="text-center kigaliHackswhy">
 					Why you should join.
