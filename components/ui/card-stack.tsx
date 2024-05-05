@@ -42,7 +42,7 @@ export const CardStack = ({
     <h2 className="text-center kigaliHackswhy">
 					Why you should join.
 						</h2>
-						<div className="text-center joinUs py-2">
+						<div className="text-center py-2">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
           <div className="relative top-[40px] m-[20px] p-[20px] md:mx-[20px] md:px-[60px]">
