@@ -75,7 +75,7 @@ function Home() {
 			</header>
 			<main>
 				{' '}
-				<WobbleCard containerClassName="h-[448px] bg-yellow-800 m-4 mt-[2rem]">
+				<WobbleCard containerClassName="bg-yellow-800 m-4 mt-[2rem]">
 					<div>
 						<h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
 							The best way to learn is by building.
@@ -96,7 +96,7 @@ function Home() {
 						width={500}
 						height={500}
 						alt="image"
-						className="absolute right-[100%] md:-right-[40%] lg:-right-[20%] -bottom-10 object-contain rounded-2xl"
+						className="absolute right-[100%] md:-right-[40%] lg:-right-[20%] -bottom-[100px] object-contain rounded-2xl"
 					/>
 				</WobbleCard>
 				<div className="main">
@@ -118,10 +118,16 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="w-1/2 mx-auto text-center ">
-					<h2 id="timeline-heading">Why you should join</h2>
-					<span className="caption">{"Why Get Involved? You shouldn't misout."}</span>
-					<div className="flex items-center flex-col justify-center gap-10 md:flex-row lg:flex-row ">
+				<div className="w-1/2 mx-auto text-center">
+					<h2 className="text-balance text-base md:text-xl ">
+					Why you should join.
+						</h2>
+						<p className="text-base/6 text-neutral-200">
+							<span>
+							{"Why Get Involved? The reason why you shouldn't miss this."}
+							</span>
+						</p>
+					<div className="flex items-center flex-col justify-between gap-2 md:flex-row lg:flex-row ">
 						<div>
 							<CardStacker />
 						</div>
