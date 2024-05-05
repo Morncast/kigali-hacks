@@ -119,17 +119,7 @@ function Home() {
 			</main>
 			<section>
 				<div className=" p-[5rem] ">
-				
-
-					<h2 className="text-center kigaliHackswhy">
-					Why you should join.
-						</h2>
-						<div className="text-center joinUs py-2">
-						{"Why Get Involved? The reason why you shouldn't miss this."}
-					</div>
 					
-
-							<CardStacker  />
 						
 							<CardStacker offset={12} scaleFactor={0.1} />
 						
