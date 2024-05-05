@@ -118,7 +118,8 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="w-1/2 mx-auto text-center">
+				<div className="flex items-center flex-row justify-center ">
+					<div>
 					<h2 className="text-center kigaliHackswhy">
 					Why you should join.
 						</h2>
@@ -133,6 +134,9 @@ function Home() {
 							<CardStacker offset={20} scaleFactor={0.08} />
 						</div>
 					</div>
+
+					</div>
+				
 				</div>
 
 				<div id="event-time">

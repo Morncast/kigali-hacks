@@ -6,7 +6,7 @@ export function CardStacker({offset, scaleFactor}:{
   scaleFactor?: number;
 }) {
 	return (
-		<div className="flex items-center justify-center w-full m-[6rem]">
+		<div className="flex items-center justify-center w-full ">
 			<CardStack items={CARDS} offset={offset} scaleFactor={scaleFactor}/>
 		</div>
 	);
