@@ -118,19 +118,19 @@ function Home() {
 				</div>
 			</main>
 			<section>
-				<div className="w-1/2 mx-auto text-center md:p-[6rem] lg:p-[6rem]">
+				<div className="w-1/2 mx-auto text-center">
 					<h2 className=" text-center kigaliHacksHack ">
 					Why you should join.
 						</h2>
 						<div className="text-center joinUs py-2">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
-					<div className="flex items-center flex-col justify-center gap-4 md:p-[6rem] md:flex-row lg:flex-row lg:p-[6rem]">
+					<div className="flex items-center flex-col justify-center gap-4  md:flex-row lg:flex-row ">
 						<div>
-							<CardStacker />
+							<CardStacker  />
 						</div>
 						<div>
-							<CardStacker />
+							<CardStacker offset={20} scaleFactor={0.08} />
 						</div>
 					</div>
 				</div>

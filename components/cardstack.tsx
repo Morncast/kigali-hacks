@@ -1,10 +1,13 @@
 'use client';
 import { CardStack } from './ui/card-stack';
 import { cn } from '@/utils/cn';
-export function CardStacker() {
+export function CardStacker({offset, scaleFactor}:{
+	offset?: number;
+  scaleFactor?: number;
+}) {
 	return (
-		<div className="flex items-center justify-center w-full">
-			<CardStack items={CARDS} />
+		<div className="flex items-center justify-center w-full p-[6rem]">
+			<CardStack items={CARDS} offset={offset} scaleFactor={scaleFactor}/>
 		</div>
 	);
 }
