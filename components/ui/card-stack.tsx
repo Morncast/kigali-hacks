@@ -45,7 +45,7 @@ export const CardStack = ({
 						<div className="text-center py-2">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
-          <div className="relative top-[40px]  mx-[20px] px-[60px] md:m-[20px] md:p-[20px] lg:m-[20px] lg:p-[20px]">
+          <div className="relative top-[40px] my-[20px] py-[60px] md:m-[20px]  md:p-[20px] md:left-[-20px] lg:left-[-20px] lg:m-[20px] lg:p-[20px]">
       
       {cards.map((card, index) => {
         return (
