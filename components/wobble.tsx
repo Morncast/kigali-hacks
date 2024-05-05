@@ -64,10 +64,10 @@ export function Wobble() {
 				</div>
 				<Image
 					src="/students.jpg"
-					width={500}
-				    height={500}
+					width={1000}
+					height={1000}
 					alt="image"
-					className="absolute right-[100%] md:-right-[40%] lg:-right-[20%] -bottom-[100px] object-contain rounded-2xl"
+					className="absolute right-[100%] md:-right-[100%] lg:-right-[20%] -bottom-[100px] object-contain rounded-2xl"
 				/>
 			</WobbleCard>
 		</div>
