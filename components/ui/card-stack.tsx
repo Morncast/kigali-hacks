@@ -38,19 +38,20 @@ export const CardStack = ({
   };
 
   return (
-    <div className="relative w-60 md:w-96">
-      <h2 className="text-center kigaliHackswhy">
+    <div>
+    <h2 className="text-center kigaliHackswhy">
 					Why you should join.
 						</h2>
 						<div className="text-center joinUs py-2">
 						{"Why Get Involved? The reason why you shouldn't miss this."}
 					</div>
-          
+          <div className="relative w-60 md:w-96  top-[300px]">
+      
       {cards.map((card, index) => {
         return (
           <motion.div
             key={card.id}
-            className="absolute bg-black w-60 top-[100px]  md:w-96 rounded-3xl p-4 shadow-xl borderborder-white/[0.1]  shadow-black/[0.1] shadow-white/[0.05]"
+            className="absolute bg-black w-60   md:w-96 rounded-3xl p-4 shadow-xl borderborder-white/[0.1]  shadow-black/[0.1] shadow-white/[0.05]"
             style={{
               transformOrigin: "top center",
             }}
@@ -68,5 +69,7 @@ export const CardStack = ({
         );
       })}
     </div>
+    </div>
+    
   );
 };
