@@ -39,6 +39,12 @@ export const CardStack = ({
 
   return (
     <div className="relative w-60 md:w-96">
+      <h2 className="text-center kigaliHackswhy">
+					Why you should join.
+						</h2>
+						<div className="text-center joinUs py-2">
+						{"Why Get Involved? The reason why you shouldn't miss this."}
+					</div>
       {cards.map((card, index) => {
         return (
           <motion.div
