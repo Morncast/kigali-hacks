@@ -119,12 +119,10 @@ function Home() {
 			</main>
 			<section>
 				<div className=" p-[5rem] ">
-					
-						
-							<CardStacker offset={12} scaleFactor={0.1} />
-						
-					
-				
+					<CardStacker
+						offset={12}
+						scaleFactor={0.1}
+					/>
 				</div>
 
 				<div id="event-time">
@@ -538,6 +536,35 @@ function Home() {
 									height="207"
 									alt=""
 									src="/crafters.svg"
+								/>
+							</Link>
+						</div>
+
+						<div>
+							<Link
+								href="https://www.gen.xyz/"
+								target="_blank"
+							>
+								<Image
+									className="image4 object-contain"
+									width="200"
+									height="207"
+									alt=""
+									src="/xyz.png"
+								/>
+							</Link>
+						</div>
+						<div>
+							<Link
+								href="https://www.axure.com/"
+								target="_blank"
+							>
+								<Image
+									className="image4 object-contain"
+									width="200"
+									height="207"
+									alt=""
+									src="/axure.png"
 								/>
 							</Link>
 						</div>
