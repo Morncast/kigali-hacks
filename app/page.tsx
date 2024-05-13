@@ -439,7 +439,7 @@ function Home() {
 				<div className="sponsors">
 					<div className="sponsors2">Sponsors</div>
 
-					<div className="flex flex-cols md:sponsors_section lg:sponsors_section">
+					<div className="sponsors_section">
 						<div>
 							<Link
 								href="https://hackclub.com/"
