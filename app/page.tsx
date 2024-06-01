@@ -511,7 +511,7 @@ function Home() {
 							</Link>
 						</div>
 
-						<div>
+						{/* <div>
 							<Link
 								href="https://ironji.com/"
 								target="_blank"
@@ -524,7 +524,7 @@ function Home() {
 									src="/ironji_logo.jpg"
 								/>
 							</Link>
-						</div>
+						</div> */}
 						<div>
 							<Link
 								href="https://codecrafters.io/event/kigalihacks"
