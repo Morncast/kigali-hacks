@@ -60,7 +60,7 @@ export function Wobble() {
 						already graduated and still want to attend you can consider volunteering or mentoring for the
 						event
 					</p>
-					<span className="here"> email us at info@morncast.live</span>
+					<span className="here"> email us at info@kigalihacks.live</span>
 				</div>
 				<Image
 					src="/students.jpg"
