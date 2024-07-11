@@ -93,10 +93,10 @@ function Home() {
 					</div>
 					<Image
 						src="/hack.jpg"
-						width={500}
-						height={500}
+						width={430}
+						height={430}
 						alt="image"
-						className="absolute right-[100%] md:-right-[40%] lg:-right-[20%] -bottom-[100px] object-contain rounded-2xl"
+						className="absolute right-[100%] md:-right-[30%] lg:-right-[20%] -bottom-[80px] object-contain rounded-2xl"
 					/>
 				</WobbleCard>
 				<div className="main">
@@ -107,6 +107,37 @@ function Home() {
 						building, learning, and sharing. Open to all high schoolers across Rwanda, technical or
 						non-technical backgrounds. We warmly welcome you
 					</div>
+					<div className="cursor">
+	<div className="cursor--small"></div>
+	<div className="cursor--large"></div>
+	<div className="cursor--text">
+	</div>
+</div>
+<div className="circle"></div>
+<div className="circle"></div>
+<div className="circle"></div>
+<div className="circle"></div>
+<div className="circle"></div>
+<div className="circle"></div>
+<div className="circle"></div>
+<div className="loader">
+     
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
 
 					<div id="spots-container">
 						<div
@@ -174,8 +205,8 @@ function Home() {
 									className="dot-info"
 									data-description="1"
 								>
-									<span className="year">7/28 8:20am</span>
-									<span className="label">Opening Ceremony</span>
+									<span className="year">8/17 8:00am</span>
+									<span className="label">Arrival + Breakfast</span>
 								</div>
 								<input
 									id="t2"
@@ -189,8 +220,8 @@ function Home() {
 									className="dot-info"
 									data-description="2"
 								>
-									<span className="year">7/28 10:00am</span>
-									<span className="label">Hacking Begins</span>
+									<span className="year">8/17 9:00am</span>
+									<span className="label">Opening Ceremony</span>
 								</div>
 								<input
 									id="t3"
@@ -204,8 +235,8 @@ function Home() {
 									className="dot-info"
 									data-description="3"
 								>
-									<span className="year">7/28 8:00pm</span>
-									<span className="label">Projects Due</span>
+									<span className="year">8/17 9:30am</span>
+									<span className="label">Hacking Begins</span>
 								</div>
 								<input
 									id="t4"
@@ -219,8 +250,8 @@ function Home() {
 									className="dot-info"
 									data-description="4"
 								>
-									<span className="year">7/28 9:00pm</span>
-									<span className="label">Project Presentations</span>
+									<span className="year">8/17 7:00pm</span>
+									<span className="label">Project Due</span>
 								</div>
 								<input
 									id="t5"
@@ -234,12 +265,12 @@ function Home() {
 									className="dot-info"
 									data-description="5"
 								>
-									<span className="year">12/28 10:00pm</span>
-									<span className="label">Awards Ceremony</span>
+									<span className="year">8/17 8:30pm</span>
+									<span className="label">Award Ceremony</span>
 								</div>
 
 								<div id="timeline-descriptions-wrapper">
-									<div
+								<div
 										className="timeline-desc"
 										data-description="1"
 									>
@@ -250,8 +281,32 @@ function Home() {
 											<div className="left"></div>
 											<div className="right"></div>
 										</div>
+										<h3>Arrival + Breakfast</h3>
+										<h4 className="timeline-description-subtitle">8/17| 8:00am - 9:00am</h4>
+										<br /> 
+										<p className="timeline-description">
+											Arrive early to check in,  remember to bring the code given to you at the time of registeration
+											<ul className="timeline-description-list">
+												<li>
+													<span className="important-text">=IMPORTANT=</span> DO NOT START CODING during this
+													period
+												</li>
+											</ul>
+										</p>
+									</div>
+									<div
+										className="timeline-desc"
+										data-description="2"
+									>
+										<div
+											className="bracket"
+											id="bracket-1"
+										>
+											<div className="left"></div>
+											<div className="right"></div>
+										</div>
 										<h3>Opening Ceremony</h3>
-										<h4 className="timeline-description-subtitle">7/28 | 9:00am - 10:00am</h4>
+										<h4 className="timeline-description-subtitle">8/17| 9:00am - 9:30am</h4>
 										<br />
 										<p className="timeline-description">
 											The official start of the hackathon where we deliver the opening presentation along with
@@ -296,7 +351,7 @@ function Home() {
 									</div>
 									<div
 										className="timeline-desc"
-										data-description="2"
+										data-description="3"
 									>
 										<div
 											className="bracket"
@@ -306,7 +361,7 @@ function Home() {
 											<div className="right"></div>
 										</div>
 										<h3>Hacking Begins</h3>
-										<h4 className="timeline-description-subtitle">7/28 | 10:00am</h4>
+										<h4 className="timeline-description-subtitle">8/17| 9:30am</h4>
 										<br />
 										<p className="timeline-description">
 											{
@@ -324,7 +379,7 @@ function Home() {
 									</div>
 									<div
 										className="timeline-desc"
-										data-description="3"
+										data-description="4"
 									>
 										<div
 											className="bracket"
@@ -334,7 +389,7 @@ function Home() {
 											<div className="right"></div>
 										</div>
 										<h3>Projects Due</h3>
-										<h4 className="timeline-description-subtitle">7/28 | 8:00pm</h4>
+										<h4 className="timeline-description-subtitle">8/17| 7:00pm</h4>
 										<br />
 										<p className="timeline-description">
 											STOP coding! intense stress and turmoil are finally up! We hope you learned some
@@ -342,15 +397,7 @@ function Home() {
 											<ul className="timeline-description-list">
 												<li>
 													<span className="important-text">=IMPORTANT=</span> Make sure you turn in your
-													project BEFORE the deadline at 8:00pm. You can submit using our github
-													<Link
-														href="https://github.com/Morncast"
-														className="link"
-														target="_blank"
-													>
-														{' '}
-														Morncast Community
-													</Link>
+													project BEFORE the deadline at 7:00pm. 
 												</li>
 												<li>
 													{
@@ -358,7 +405,7 @@ function Home() {
 													}
 												</li>
 												<li>
-													From now until Project Presentations (8:30pm), your team will have around 30 mins to
+													From now until Project Presentations (7:30pm), your team will have around 30 mins to
 													prepare for your presentation. Get back to work!
 												</li>
 											</ul>
@@ -372,11 +419,10 @@ function Home() {
 											className="bracket"
 											id="bracket-4"
 										>
-											<div className="left"></div>
-											<div className="right"></div>
+	
 										</div>
 										<h3>Project Presentations</h3>
-										<h4 className="timeline-description-subtitle">7/28 | 8:30pm - 9:30pm</h4>
+										<h4 className="timeline-description-subtitle">8/17| 7:00pm - 8:00pm</h4>
 										<br />
 										<p className="timeline-description">
 											This is where your team will present your product to our honored judges.
@@ -387,10 +433,7 @@ function Home() {
 													across multiple sources
 												</li>
 												<li>Presentations will occur in order of team number (i.e. Team 1 will go first)</li>
-												<li>
-													It is advised you have your camera on and that you ensure your microphone and tech
-													work before presenting
-												</li>
+											
 												<li>
 													<span className="important-text">=IMPORTANT=</span>
 													{
@@ -415,7 +458,7 @@ function Home() {
 											<div className="right"></div>
 										</div>
 										<h3>Awards Ceremony</h3>
-										<h4 className="timeline-description-subtitle">7/28 | 9:30pm - 10:00pm</h4>
+										<h4 className="timeline-description-subtitle">8/17| 8:30pm - </h4>
 										<br />
 										<p className="timeline-description">
 											{
@@ -496,6 +539,20 @@ function Home() {
 								/>
 							</Link>
 						</div> */}
+						<div>
+							<Link
+								href="https://www.echo3d.com/"
+								target="_blank"
+							>
+								<Image
+									className="image4 object-contain"
+									width="200"
+									height="207"
+									alt=""
+									src="/echo.png"
+								/>
+							</Link>
+						</div> 
 						<div>
 							<Link
 								href="https://www.interviewcake.com/"
