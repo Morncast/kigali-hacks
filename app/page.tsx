@@ -186,7 +186,7 @@ function Home() {
 
 					<div id="timeline">
 						<h2 id="timeline-heading">Timeline To be updated</h2>
-						<span className="caption">
+						<span className="md:w-[200px] caption">
 							Click on each dot for more info, disclaimer this is not the official schedule. Once released we
 							will let you know if you have RSVP
 						</span>
