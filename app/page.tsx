@@ -567,7 +567,20 @@ function Home() {
 								/>
 							</Link>
 						</div>
-
+						<div>
+							<Link
+								href="https://certopus.com/"
+								target="_blank"
+							>
+								<Image
+									className="image4 object-contain"
+									width="200"
+									height="207"
+									alt=""
+									src="/certopus.svg"
+								/>
+							</Link>
+						</div>
 						{/* <div>
 							<Link
 								href="https://ironji.com/"
