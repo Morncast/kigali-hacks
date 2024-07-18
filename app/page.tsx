@@ -144,7 +144,7 @@ function Home() {
 							className="blob green"
 							aria-hidden="true"
 						></div>
-						<h2 id="header-subtitle-spots"> Venue TBC</h2>
+						<h2 id="header-subtitle-spots"> Venue ALU</h2>
 					</div>
 				</div>
 			</main>
