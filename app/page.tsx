@@ -497,7 +497,7 @@ function Home() {
 								/>
 							</Link>
 						</div>
-						{/* <div>
+						<div>
 							<Link
 								href="https://www.bktechouse.rw/"
 								target="_blank"
@@ -511,6 +511,7 @@ function Home() {
 								/>
 							</Link>
 						</div>
+						{/* 
 						<div>
 							<Link
 								href="https://irembo.com/"
