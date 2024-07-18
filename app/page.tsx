@@ -504,7 +504,7 @@ function Home() {
 							>
 								<Image
 									className="image4"
-									width="100"
+									width="200"
 									height="207"
 									alt=""
 									src="/bk.svg"
