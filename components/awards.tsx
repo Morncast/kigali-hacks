@@ -28,7 +28,7 @@ export function Awards() {
 	return (
 		<>
 			<div className="max-w-4xl mx-auto md:auto-rows-[20rem] p-4">
-				<h1 id="description-heading">Prices</h1>
+				<h1 id="description-heading">Prizes</h1>
 				<>
 					<div>
 						<motion.div
