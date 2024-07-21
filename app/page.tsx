@@ -144,7 +144,7 @@ function Home() {
 							className="blob green"
 							aria-hidden="true"
 						></div>
-						<h2 id="header-subtitle-spots"> Venue ALU</h2>
+						<h2 id="header-subtitle-spots"> Location ALU</h2>
 					</div>
 				</div>
 			</main>
@@ -162,7 +162,7 @@ function Home() {
 
 						<div id="event-main-box">
 							<div id="description-content">
-								Morncast Community is a student-led organization focused on promoting community engagement and
+								Kigali Hacks is a student-led organization focused on promoting community engagement and
 								improving TECH exposure for local high school students.
 							</div>
 
