@@ -511,7 +511,6 @@ function Home() {
 								/>
 							</Link>
 						</div>
-						{/* 
 						<div>
 							<Link
 								href="https://irembo.com/"
@@ -519,13 +518,15 @@ function Home() {
 							>
 								<Image
 									className="image4"
-									width="100"
+									width="200"
 									height="207"
 									alt=""
 									src="/irembo.svg"
 								/>
 							</Link>
 						</div>
+						{/* 
+						
 						<div>
 							<Link
 								href="https://www.echo3d.com/"
