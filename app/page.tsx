@@ -525,6 +525,20 @@ function Home() {
 								/>
 							</Link>
 						</div>
+						<div>
+							<Link
+								href="https://hence.ai/"
+								target="_blank"
+							>
+								<Image
+									className="image4 object-contain"
+									width="200"
+									height="207"
+									alt=""
+									src="/hence.png"
+								/>
+							</Link>
+						</div>
 						{/* 
 						
 						<div>
@@ -597,20 +611,7 @@ function Home() {
 								/>
 							</Link>
 						</div> */}
-							<div>
-							<Link
-								href="https://hence.ai/"
-								target="_blank"
-							>
-								<Image
-									className="image4 object-contain"
-									width="200"
-									height="207"
-									alt=""
-									src="/hence.png"
-								/>
-							</Link>
-						</div>
+					
 						<div>
 							<Link
 								href="https://codecrafters.io/event/kigalihacks"
@@ -621,7 +622,7 @@ function Home() {
 									width="200"
 									height="207"
 									alt=""
-									src="/crafters.svg"
+									src="/crafters.png"
 								/>
 							</Link>
 						</div>

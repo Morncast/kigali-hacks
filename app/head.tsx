@@ -5,9 +5,9 @@ export default function Head() {
 			<meta content="width=device-width, initial-scale=1" name="viewport" />
 			<meta charSet="utf-8" />
 			<link rel="icon" href="/favicon.ico" />
-			<meta name="title" content="MornCast Kigali Hacks Hackathon" />
+			<meta name="title" content="Kigali Hacks Hackathon" />
 
-			<meta name="author" content="Morncast community"/>
+			<meta name="author" content="Kigali Hacks community"/>
  <meta name="copyright" content="This is site and its content is copyright (c) 2024 of Morncast community"/>
  <meta name="keywords" content="morncast, kigali, hackathon, hack, kigali hacks, kigali hackathon, kigali hack, kigali hacks hackathon "/>
 			<meta name="description" content="Kigali Hacks, Hack The Future.
