@@ -539,22 +539,21 @@ function Home() {
 								/>
 							</Link>
 						</div>
-						{/* 
-						
 						<div>
 							<Link
-								href="https://www.echo3d.com/"
+								href="https://apeers.org/"
 								target="_blank"
 							>
 								<Image
-									className="image4"
-									width="100"
+									className="image4 object-contain"
+									width="200"
 									height="207"
 									alt=""
-									src="/echo.png"
+									src="/apeers.png"
 								/>
 							</Link>
-						</div> */}
+						</div>
+						
 						<div>
 							<Link
 								href="https://www.echo3d.com/"
