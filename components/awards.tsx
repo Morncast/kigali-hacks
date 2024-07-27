@@ -50,7 +50,7 @@ export function Awards() {
 								One more certificate for the Best Design
 								</p>
 								<p className="bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
-								Get free internet cards
+								Get internships in the USA 
 								</p>
 								<p className=" border border-red-500  bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
 								Life time access on Codecrafters
