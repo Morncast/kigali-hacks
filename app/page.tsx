@@ -527,6 +527,20 @@ function Home() {
 						</div>
 						<div>
 							<Link
+								href="https://www.ampersand.solar/"
+								target="_blank"
+							>
+								<Image
+									className="image4"
+									width="200"
+									height="207"
+									alt=""
+									src="/ampersand.png"
+								/>
+							</Link>
+						</div>
+						<div>
+							<Link
 								href="https://hence.ai/"
 								target="_blank"
 							>
