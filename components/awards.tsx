@@ -154,9 +154,7 @@ export function Awards() {
 					<p className="border border-green-500  bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
 						Get access to premium account on interviewcake
 					</p>
-					<p className="border border-green-500  bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-					Get enrolled in professional courses By Natcom ICT.
-					</p>
+				
 				</motion.div>
 			</div>
 		</>
