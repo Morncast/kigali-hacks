@@ -27,7 +27,7 @@ function Home() {
 
 	return (
 		<div className="page">
-			<header>
+			{/* <header>
 				<nav>
 					<svg
 						width="97"
@@ -72,13 +72,13 @@ function Home() {
 						</li>
 					</div>
 				</nav>
-			</header>
+			</header> */}
 			<main>
 				{' '}
 				<WobbleCard containerClassName="bg-yellow-800 m-4 mt-[2rem]">
 					<div>
 						<h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-							The best way to learn is by building.
+						Looking forward to kigali Hacks 2024
 						</h2>
 						<p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
 							<span>
@@ -99,7 +99,7 @@ function Home() {
 						className="absolute right-[100%] md:-right-[30%] lg:-right-[20%] -bottom-[80px] object-contain rounded-2xl"
 					/>
 				</WobbleCard>
-				<div className="main">
+				{/* <div className="main">
 					<Sparkles />
 
 					<div className="joinUs">
@@ -146,9 +146,9 @@ function Home() {
 						></div>
 						<h2 id="header-subtitle-spots"> Location ALU</h2>
 					</div>
-				</div>
+				</div> */}
 			</main>
-			<section>
+			{/* <section>
 				<div className=" p-[5rem] ">
 					<CardStacker
 						offset={12}
@@ -610,20 +610,7 @@ function Home() {
 								/>
 							</Link>
 						</div>
-						{/* <div>
-							<Link
-								href="https://ironji.com/"
-								target="_blank"
-							>
-								<Image
-									className="image4 object-contain"
-									width="100"
-									height="207"
-									alt=""
-									src="/ironji_logo.jpg"
-								/>
-							</Link>
-						</div> */}
+					
 					
 						<div>
 							<Link
@@ -677,15 +664,15 @@ function Home() {
 					alt=""
 					src="/sticky.svg"
 				/>
-			</section>
+			</section> */}
 
-			<div className="faqSection">
+			{/* <div className="faqSection">
 				<i className="faqs">FAQs</i>
 
 				<section className="fqa">
 					<Wobble />
 				</section>
-			</div>
+			</div> */}
 			<footer>
 				<div className="copyright">
 					<p>
