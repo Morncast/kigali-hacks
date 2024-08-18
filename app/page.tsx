@@ -78,7 +78,7 @@ function Home() {
 				<WobbleCard containerClassName="bg-yellow-800 m-4 mt-[2rem]">
 					<div>
 						<h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
-						Looking forward to kigali Hacks 2024
+						Looking forward to [kigali] replace the name and follow it with Hacks 2025 for example Rubavu Hacks, guess where we are going next!
 						</h2>
 						<p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
 							<span>
